@@ -1,0 +1,36 @@
+$primaryFontFamily: 'Open Sans',sans-serif;
+$secondaryFontFamily: Roboto, sans-serif;
+$primaryColor: #25283d;
+$secondaryColor: #fff;
+$baseColor: #0091ad;
+
+.primary-text {
+    font-weight: 700;
+    font-family: $primaryFontFamily;
+}
+.secondary-text {
+    font-weight: 400;
+    font-family: $secondaryFontFamily;
+}
+
+.button {
+    stroke: none;
+    cursor: pointer;
+    user-select: none;
+
+    vertical-align: middle;
+    align-self: flex-start;
+
+    color: $secondaryColor !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    outline-width: 0;
+    padding: 10px 30px;
+    background-color: $baseColor !important;
+    border-radius: 0;
+}

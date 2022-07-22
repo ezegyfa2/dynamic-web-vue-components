@@ -1,0 +1,26 @@
+@import "../../globals.scss";
+
+.navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: transparent;
+}
+
+.navbar.navbar-shrink {
+    background-color: #0c9db9;
+}
+
+.navbar-brand {
+    @extend .primary-text;
+    color: $primaryColor;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+
+.navbar-toggler .fa-bars {
+    margin-left: 0.5rem;
+}
+
+.navbar-nav {
+    text-align: right;
+}

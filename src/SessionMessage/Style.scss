@@ -1,0 +1,24 @@
+@import "../../../helper-vue-components/src/SessionMessages/MessageBox/Style";
+
+.message {
+    background-color: #61E786;
+    left: 5%;
+    top: 10rem;
+}
+
+@media (min-width: 1199px) {
+    .message {
+        width: 35%;
+    }
+}
+@media (max-width: 1199px) and (min-width: 767px) {
+    .message {
+        width: 40%;
+    }
+}
+@media (max-width: 767px) {
+    .message {
+        left: 25%;
+        width: 50%;
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "type": "agency-landing-page",
+    "data": {
+        "navbar_section": {
+            "file_path": "navbar.json",
+            "params": {
+                "title": "++navbar.title",
+                "links": [
+                    {
+                        "url": "#about",
+                        "content": "++navbar.about"
+                    },
+                    {
+                        "url": "#projects",
+                        "content": "++navbar.projects"
+                    },
+                    {
+                        "url": "#orders",
+                        "content": "++navbar.orders"
+                    }
+                ]
+            }
+        },
+        "header_section": {
+            "file_path": "header.json",
+            "params": {
+                "title": "++header.title",
+                "content": "++header.content",
+                "button": {
+                    "title": "++header.button.title",
+                    "url": "#orders"
+                }
+            }
+        },
+        "content_sections": [
+            {
+                "file_path": "offers.json",
+                "params": {
+                    "offers": [
+                        {
+                            "title": "++offers.basic.title",
+                            "content": "++offers.basic.content",
+                            "parts": [
+                                "Visible components",
+                                "Powerful engine",
+                                "Quick load"
+                            ]
+                        },
+                        {
+                            "title": "++offers.normal.title",
+                            "content": "++offers.normal.content",
+                            "parts": [
+                                "Visible components",
+                                "Powerful engine",
+                                "Quick load"
+                            ]
+                        },
+                        {
+                            "title": "++offers.premium.title",
+                            "content": "++offers.premium.content",
+                            "parts": [
+                                "Visible components",
+                                "Powerful engine",
+                                "Quick load"
+                            ]
+                        }
+                    ],
+                    "button": {
+                        "title": "++offers.button.title",
+                        "link": "#"
+                    }
+                }
+            },
+            {
+                "file_path": "services.json",
+                "params": {
+                    "title": "++services.title",
+                    "subtitle": "++services.subtitle",
+                    "texts": [
+                        {
+                            "icon_class": "fa-solid fa-globe",
+                            "title": "++services.site_building.title",
+                            "subtitle": "++services.site_building.subtitle"
+                        },
+                        {
+                            "icon_class": "fa-solid fa-bullhorn",
+                            "title": "++services.marketing.title",
+                            "subtitle": "++services.marketing.subtitle"
+                        },
+                        {
+                            "icon_class": "fas fa-chart-line",
+                            "title": "++services.optimization.title",
+                            "subtitle": "++services.optimization.subtitle"
+                        }
+                    ]
+                }
+            }
+        ],
+        "contact_section": {
+            "file_path": "contactForm.json"
+        },
+        "footer_section": {
+            "file_path": "footer.json",
+            "params": {
+                "icons": [
+                    {
+                        "url": "",
+                        "icon_class": "fab fa-twitter"
+                    },
+                    {
+                        "url": "",
+                        "icon_class": "fab fa-facebook-f"
+                    },
+                    {
+                        "url": "",
+                        "icon_class": "fab fa-linkedin-in"
+                    }
+                ],
+                "terms_of_use": {
+                    "url": "",
+                    "content": "Terms of use"
+                },
+                "privacy_policy": {
+                    "url": "",
+                    "content": "Privacy policy"
+                },
+                "copyright": "Copyright"
+            }
+        }
+    }
+}

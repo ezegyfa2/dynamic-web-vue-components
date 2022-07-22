@@ -1,0 +1,25 @@
+@import "../../globals";
+
+.nav-link, .badge {
+    font-family: $secondaryFontFamily;
+    font-size: 0.95rem;
+    color: $primaryColor;
+    letter-spacing: 0.0625em;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link {
+    margin-right: 1rem;
+}
+.nav-link.active, .nav-link:hover, .badge:active, .badge:hover {
+    color: #65687d;
+}
+
+.navbar-shrink {
+    .nav-link, .badge {
+        color: $secondaryColor;
+    }
+    .nav-link.active, .nav-link:hover, .badge:active, .badge:hover {
+        color: $primaryColor;
+    }
+}

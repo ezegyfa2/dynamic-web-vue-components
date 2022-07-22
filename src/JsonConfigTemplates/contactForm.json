@@ -1,0 +1,52 @@
+{
+    "type": "dynamic-web-contact-form",
+    "data": {
+        "title_section": {
+            "type": "dynamic-web-white-medium-text-content",
+            "data": {
+                "title": "contact us",
+                "content": "Lorem ipsum dolor sit amet consectetur."
+            }
+        },
+        "left_input_sections": [
+            {
+                "type": "dynamic-web-input",
+                "data": {
+                    "name": "name",
+                    "label": "Your name *",
+                    "type": "input",
+                    "value_type": "text"
+                }
+            },
+            {
+                "type": "dynamic-web-input",
+                "data": {
+                    "name": "email",
+                    "label": "Your email *",
+                    "type": "input",
+                    "value_type": "email"
+                }
+            },
+            {
+                "type": "dynamic-web-input",
+                "data": {
+                    "name": "phone",
+                    "label": "Your phone *",
+                    "type": "input",
+                    "value_type": "tel",
+                    "error_message": "error"
+                }
+            }
+        ],
+        "right_input_sections": [
+            {
+                "type": "dynamic-web-fit-height-input",
+                "data": {
+                    "name": "message",
+                    "label": "Your message *",
+                    "type": "textarea"
+                }
+            }
+        ]
+    }
+}

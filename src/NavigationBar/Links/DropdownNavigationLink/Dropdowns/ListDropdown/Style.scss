@@ -1,0 +1,26 @@
+@import "../../../../../globals";
+
+.dropdown-menu {
+    font-size: 0.85rem;
+    padding: 0;
+    background-color: $baseColor;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+.shadow { 
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(#3a3b45, .15) !important;
+}
+@media (min-width: 575px) {
+    .dropdown-menu {
+        width: calc(100% - 1.5rem);
+        right: 0.75rem;
+    }
+}
+@media (max-width: 575px) {
+    .dropdown-menu {
+        width: auto;
+        right: 0;
+    }
+}
