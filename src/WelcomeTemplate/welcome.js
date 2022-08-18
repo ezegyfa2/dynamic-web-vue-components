@@ -113,8 +113,7 @@ export default {
             "params": {
                 "title": "++contact_us.title",
                 "subtitle": "++contact_us.subtitle",
-                "left_inputs": "++contact_us.left_inputs",
-                "right_inputs": "++contact_us.right_inputs",
+                "form_item_sections": "++contact_us.form_item_sections",
                 "button_title": "++contact_us.button_title"
             }
         },

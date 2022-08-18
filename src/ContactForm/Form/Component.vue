@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import Form from '../../../../helper-vue-components/src/Form'
+    import Form from '../../../../helper-vue-components/src/Form/Form.vue'
 
     export default {
         mixins: [
@@ -15,12 +15,23 @@
             },
             title_section: {
                 type: Object
+            }
+        },
+        data() {
+            return {
+                formItemTypePrefix: 'dynamic-web-contact'
+            }
+        },
+        computed: {
+            leftFormItemSections() {
+                return this.convertedFormItemSections.filter(function(formItemSection) {
+                    return formItemSection.data.name != 'message'
+                })
             },
-            left_input_sections: {
-                type: Array
-            },
-            right_input_sections: {
-                type: Array
+            rightFormItemSections() {
+                return this.convertedFormItemSections.filter(function(formItemSection) {
+                    return formItemSection.data.name == 'message'
+                })
             }
         }
     }

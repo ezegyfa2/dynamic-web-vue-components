@@ -5,11 +5,12 @@ export default {
             "type": "right-content",
             "data": {
                 "content_section": {
-                    "type": "dynamic-web-text-content-with-icon",
+                    "type": "dynamic-web-upper-line-text-content",
                     "data": {
-                        "icon_class": "fa-solid fa-globe",
-                        "title": "Site building",
-                        "content": "We give your company an online presence"
+                        "title": "++title",
+                        "content": "++content",
+                        "button_title": "++button.title",
+                        "button_link": "#contact_us"
                     }
                 }
             }

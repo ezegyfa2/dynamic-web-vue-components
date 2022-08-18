@@ -1,12 +1,16 @@
-@import "../globals.scss";
+@import "../../globals.scss";
 
-.form-control {
+.form-group {
+    padding-bottom: 1.5rem;
+}
+
+.form-control, .form-select, option {
     display: block;
     width: 100%;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 1.5;
-    color: #212529;
+    color: $primaryColor;
     background-color: $secondaryColor;
     background-clip: padding-box;
     border: 1px solid $secondaryColor;

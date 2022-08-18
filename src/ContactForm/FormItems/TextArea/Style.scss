@@ -1,0 +1,11 @@
+@import "../formItem.scss";
+
+.form-group {
+    height: 100%;
+}
+
+textarea {
+    height: 100%;
+    padding: 1.25rem;
+    min-height: 10rem;
+}
