@@ -10,7 +10,7 @@
                 addedClasses: {
                     'span': [
                         'fa-stack',
-                        'fa-4x'
+                        'fa-8x',
                     ],
                     '.title': [
                         'h4',

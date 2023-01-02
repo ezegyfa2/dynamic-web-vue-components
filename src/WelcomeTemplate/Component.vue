@@ -8,7 +8,7 @@
         data() {
             return {
                 mainTemplatePath: 'welcome',
-                subTemplates: {
+                templates: {
                     welcome: require('./welcome').default,
                     contactUs: require('./contactUs').default,
                     footer: require('./footer').default,

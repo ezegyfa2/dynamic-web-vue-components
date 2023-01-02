@@ -5,7 +5,7 @@ export default {
             "type": "wertically-icon-links",
             "data": {
                 "icon_sections": {
-                    "type": "button-icon-link2",
+                    "type": "dynamic-web-button-icon-link",
                     "array_data": "icons",
                     "data": {
                         "url": "++icons.url",
@@ -16,7 +16,7 @@ export default {
         },
         "footer_link_sections": [
             {
-                "type": "dark-link",
+                "type": "dynamic-web-dark-link",
                 "data": {
                     "url": "/privacy_policy",
                     "content": "++privacy_policy.content",

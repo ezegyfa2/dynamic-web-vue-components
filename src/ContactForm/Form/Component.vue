@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import Form from '../../../../helper-vue-components/src/Form/Form.vue'
+    import Form from '../../../../helper-vue-components/src/Form/Form/Component.vue'
 
     export default {
         mixins: [

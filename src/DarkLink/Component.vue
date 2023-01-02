@@ -1,9 +1,9 @@
 <script>
-    import Header from './../../../helper-vue-components/src/Headers/ImageBackgroundHeader/Component.vue'
+    import Link from './../../../helper-vue-components/src/Link/Component.vue'
 
     export default {
         mixins: [
-            Header
+            Link
         ]
     }
 </script>

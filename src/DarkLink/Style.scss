@@ -1,0 +1,10 @@
+@import '../globals.scss';
+
+.link {
+    color: $thirdColor;
+    font-family: $secondaryFontFamily;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
