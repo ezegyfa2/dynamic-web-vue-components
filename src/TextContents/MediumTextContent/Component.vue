@@ -5,11 +5,14 @@
         mixins: [
             MediumTextContent
         ],
-        data() {
-            return {
-                addedClasses: {
-                    '.title': 'text-uppercase',
-                    '.content': 'text-muted'
+        props: {
+            added_classes: {
+                type: Object,
+                default () {
+                    return{
+                        '.title': 'text-uppercase',
+                        '.content': 'text-muted'
+                    }
                 }
             }
         }
