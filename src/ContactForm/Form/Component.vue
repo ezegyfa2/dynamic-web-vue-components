@@ -3,11 +3,11 @@
 </template>
 
 <script>
-    import Form from '../../../../helper-vue-components/src/Form/Form/Component.vue'
+    import MultiPageForm from '../../../../helper-vue-components/src/Form/MultiPageForm/Component.vue'
 
     export default {
         mixins: [
-            Form
+            MultiPageForm
         ],
         props: {
             id: {
@@ -20,18 +20,6 @@
         data() {
             return {
                 formItemTypePrefix: 'dynamic-web-contact'
-            }
-        },
-        computed: {
-            leftFormItemSections() {
-                return this.convertedFormItemSections.filter(function(formItemSection) {
-                    return formItemSection.data.name != 'message'
-                })
-            },
-            rightFormItemSections() {
-                return this.convertedFormItemSections.filter(function(formItemSection) {
-                    return formItemSection.data.name == 'message'
-                })
             }
         }
     }

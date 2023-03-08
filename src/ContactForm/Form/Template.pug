@@ -9,19 +9,19 @@ section.page-section(v-bind:id='id')
             v-on:submit='submitForm'
         )
             csrf-input
-            .row.align-items-stretch.mb-5
-                .col-md-6
-                    dynamic-component(
-                        v-for='formItemSection in leftFormItemSections'
-                        v-bind:component_infos='formItemSection'
-                    )
-                .col-md-6
-                    dynamic-component(
-                        v-for='formItemSection in rightFormItemSections'
-                        v-bind:component_infos='formItemSection'
-                    )
+            component(
+                v-for='formItemSection in form_item_sections[this.currentPageNumber]'
+                v-bind:key='formItemSection.data.name'
+                v-bind:ref='formItemSection.data.name'
+                v-bind:is='getConvertedType(formItemSection.type)'
+                v-bind='formItemSection.data'
+                v-bind:value='formItemSection.data.value'
+                v-on:update:value='(newValue) => { formItemSection.data.value = newValue }'
+            )
             .text-center
-                button.btn.btn-primary.btn-xl(
-                    type='submit'
-                    v-bind:disabled='submitted'
-                ) {{ button_title }}
+                .form-item(v-if='currentPageNumber > 0')
+                    button.btn.btn-primary.form-item-control.text-align-center(type='button' @click='back') {{ back_button_title }}
+                .form-item(v-if='currentPageNumber < form_item_sections.length - 1')
+                    button.btn.btn-primary.form-item-control.text-align-center(type='button' @click='next') {{ next_button_title }}
+                .form-item(v-if='currentPageNumber == form_item_sections.length - 1')
+                    button.btn.btn-primary.form-item-control.text-align-center(type='submit' @click='submitForm') {{ button_title }}

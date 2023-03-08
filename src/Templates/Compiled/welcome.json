@@ -1,0 +1,244 @@
+{
+    "type": "landing-page",
+    "data": {
+        "success_message_sections": [],
+        "navbar_section": {
+            "type": "dynamic-web-navigation-bar",
+            "data": {
+                "title": "DYNAMIC-WEB",
+                "links": [
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "#offers",
+                            "content": "--layout.navbar.offers"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "#services",
+                            "content": "--layout.navbar.services"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "#contact_us",
+                            "content": "--layout.navbar.contact_us"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-dropdown-navigation-link",
+                        "data": {
+                            "badge_content": "HU",
+                            "dropdown_section": {
+                                "type": "dynamic-web-list-dropdown",
+                                "data": {
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/hu",
+                                                "content": "HU"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/ro",
+                                                "content": "RO"
+                                            }
+                                        }
+                                    ],
+                                    "dropdown_link_id": "dropdown14"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "header_section": {
+            "type": "dynamic-web-header",
+            "data": {
+                "title_section": {
+                    "type": "right-content",
+                    "data": {
+                        "content_section": {
+                            "type": "dynamic-web-upper-line-text-content",
+                            "data": {
+                                "title": "--layout.header.title",
+                                "content": "--layout.header.content",
+                                "button_title": "--layout.header.button.title",
+                                "button_link": "#contact_us"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_sections": [
+            {
+                "type": "dynamic-web-offer-container",
+                "data": {
+                    "id": "offers",
+                    "column_sections": [
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-middle-line-text-content",
+                                    "data": {
+                                        "title": "--welcome.offers.basic.title",
+                                        "content": "--welcome.offers.basic.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.basic.parts.responsive_layouts",
+                                    "--welcome.offers.basic.parts.modern_design",
+                                    "--welcome.offers.basic.parts.user_friendly",
+                                    "--welcome.offers.basic.parts.admin_panel",
+                                    "--welcome.offers.basic.parts.product_list",
+                                    "--welcome.offers.basic.parts.seo_optimizing"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-middle-line-text-content",
+                                    "data": {
+                                        "title": "--welcome.offers.normal.title",
+                                        "content": "--welcome.offers.normal.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.normal.parts.basic_parts",
+                                    "--welcome.offers.normal.parts.many_product",
+                                    "--welcome.offers.normal.parts.product_categories",
+                                    "--welcome.offers.normal.parts.product_filters",
+                                    "--welcome.offers.normal.parts.users"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-middle-line-text-content",
+                                    "data": {
+                                        "title": "--welcome.offers.premium.title",
+                                        "content": "--welcome.offers.premium.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.premium.parts.normal_parts",
+                                    "--welcome.offers.premium.parts.marketing",
+                                    "--welcome.offers.premium.parts.optmizing",
+                                    "--welcome.offers.premium.parts.custom_design",
+                                    "--welcome.offers.premium.parts.reports"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "dynamic-web-services",
+                "data": {
+                    "id": "services",
+                    "title_section": {
+                        "type": "dynamic-web-medium-text-content",
+                        "data": {
+                            "title": "--welcome.services.title",
+                            "content": "--welcome.services.subtitle"
+                        }
+                    },
+                    "text_content_sections": [
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fa-solid fa-globe",
+                                "title": "--welcome.services.site_building.title",
+                                "content": "--welcome.services.site_building.subtitle"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fa-solid fa-bullhorn",
+                                "title": "--welcome.services.marketing.title",
+                                "content": "--welcome.services.marketing.subtitle"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-text-content-with-icon",
+                            "data": {
+                                "icon_class": "fas fa-chart-line",
+                                "title": "--welcome.services.optimization.title",
+                                "content": "--welcome.services.optimization.subtitle"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "footer_section": {
+            "type": "dynamic-web-footer",
+            "data": {
+                "icon_links_section": {
+                    "type": "wertically-icon-links",
+                    "data": {
+                        "icon_sections": [
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fab fa-facebook-f"
+                                }
+                            },
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fa-brands fa-linkedin-in"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "footer_link_sections": [
+                    {
+                        "type": "dynamic-web-dark-link",
+                        "data": {
+                            "url": "/privacy_policy",
+                            "content": "--layout.footer.privacy_policy",
+                            "added_classes": {
+                                "root": "me-3"
+                            }
+                        }
+                    }
+                ],
+                "copyright": {
+                    "company_name": "--layout.footer.copyright.company_name",
+                    "content": "--layout.footer.copyright.content"
+                }
+            }
+        }
+    }
+}
