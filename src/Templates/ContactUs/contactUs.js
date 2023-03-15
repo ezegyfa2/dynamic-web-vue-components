@@ -1,6 +1,7 @@
 export default {
     "template_type_name": "dynamic_web_layout",
     "params": {
+        "header_section": {},
         "current_language": "++current_language",
         "content_sections": [
             {
@@ -9,7 +10,7 @@ export default {
                     "id": "contact_us",
                     "url": "/contact-us",
                     "title_section": {
-                        "type": "dynamic-web-white-medium-text-content",
+                        "type": "dynamic-web-contact-text-content",
                         "data": {
                             "title": "--contactUs.title",
                             "content": "--contactUs.subtitle"

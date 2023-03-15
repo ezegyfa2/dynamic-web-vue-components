@@ -11,6 +11,10 @@ export default {
         window.templates.dynamic_web_header = require('./Welcome/header').default
         window.templates.dynamic_web_offers = require('./Welcome/offers').default
         window.templates.dynamic_web_services = require('./Welcome/services').default
+        window.templates.dynamic_web_articles = require('./Welcome/articles').default
+        window.templates.dynamic_web_team = require('./Welcome/team').default
+        window.templates.dynamic_web_team_member = require('./Welcome/teamMember').default
+        window.templates.dynamic_web_roadmap = require('./Welcome/roadmap').default
         
         window.templates.dynamic_web_contact_us = require('./ContactUs/contactUs').default
     }

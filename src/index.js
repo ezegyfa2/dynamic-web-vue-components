@@ -2,6 +2,8 @@ export default {
     install(Vue) {
         require('js-helper-methods')
         require('helper-vue-components').default.install(Vue)
+        require('description-vue-components').default.install(Vue)
+        require('text-contents-vue-components').default.install(Vue)
         require('./ContactForm/register.js').default.install(Vue)
         require('./Templates/templateRegister.js').default.install()
 
@@ -117,6 +119,12 @@ export default {
             Vue,
 			'dynamic-web-vue-components/TextContents/TextContentWithIcon/Component.vue'
         )
+        registerVueComponent(
+            'dynamic-web-small-text-content',
+            require('./TextContents/SmallTextContent/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/TextContents/SmallTextContent/Component.vue'
+        )
 
         registerVueComponent(
             'dynamic-web-dark-link',
@@ -130,5 +138,47 @@ export default {
             Vue,
 			'dynamic-web-vue-components/ButtonIconLink/Component.vue'
         )
-    },
+        registerVueComponent(
+            'dynamic-web-description-section',
+            require('./Description/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Description/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-team',
+            require('./Team/Team/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Team/Team/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-team-member',
+            require('./Team/Member/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Team/Member/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-roadmap',
+            require('./Roadmap/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Roadmap/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-timeline',
+            require('./Timeline/Timeline/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Timeline/Timeline/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-timeline-item',
+            require('./Timeline/TimelineItem/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/Timeline/TimelineItem/Component.vue'
+        )
+        registerVueComponent(
+            'dynamic-web-two-title-text-content',
+            require('./TextContents/TwoTitleTextContent/Component.vue').default,
+            Vue,
+			'dynamic-web-vue-components/src/TextContents/TwoTitleTextContent/Component.vue'
+        )
+    }
 }

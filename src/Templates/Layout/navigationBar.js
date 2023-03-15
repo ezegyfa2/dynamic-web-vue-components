@@ -2,6 +2,7 @@ export default {
     "type": "dynamic-web-navigation-bar",
     "data": {
         "title": "DYNAMIC-WEB",
+        "title_url": "/",
         "links": [
             {
                 "type": "dynamic-web-navigation-link",

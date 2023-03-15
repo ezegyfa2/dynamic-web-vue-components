@@ -66,25 +66,7 @@
                 ]
             }
         },
-        "header_section": {
-            "type": "dynamic-web-header",
-            "data": {
-                "title_section": {
-                    "type": "right-content",
-                    "data": {
-                        "content_section": {
-                            "type": "dynamic-web-upper-line-text-content",
-                            "data": {
-                                "title": "--layout.header.title",
-                                "content": "--layout.header.content",
-                                "button_title": "--layout.header.button.title",
-                                "button_link": "#contact_us"
-                            }
-                        }
-                    }
-                }
-            }
-        },
+        "header_section": {},
         "content_sections": [
             {
                 "type": "dynamic-web-contact-form",

@@ -1,24 +1,18 @@
 @import "../../globals";
 
-.text-center {
-    padding: 3rem 0;
-}
 .title {
-    @extend .primary-text;
+    color: $primaryColor;
+    font-family: $primaryFontFamily;
     font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 1rem;
 }
 .content {
     @extend .secondary-text;
+    color: $primaryColor !important;
     font-size: 1rem;
     font-style: italic;
     margin-bottom: 4rem;
-}
-
-.title {
-    color: $primaryColor;
-}
-.content {
-    color: $primaryColor;
 }

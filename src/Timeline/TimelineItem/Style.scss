@@ -1,0 +1,114 @@
+@import "../../globals.scss";
+
+$contentWidth: 42%;
+
+li {
+    display: flex;
+    position: relative;
+}
+
+.timeline-image {
+    background-color: $primaryColor;
+    height: fit-content;
+    border: 7px solid $primaryColor;
+    border-radius: 100%;
+}
+.timeline-image > img {
+    width: 100%;
+}
+
+/* --- */
+
+/* --- */
+
+.right-content {
+    text-align: left;
+}
+.left-content {
+    text-align: right;
+}
+.timeline-image {
+    width: calc(100% - 2 * $contentWidth);
+}
+
+@media (max-width: 767.9px) {
+    li {
+        min-height: 100px;
+        padding-bottom: 50px;
+    }
+    .timeline-panel {
+        width: 2 * $contentWidth;
+        padding: 0 20px;
+    }
+    .left-content {
+        display: none;
+    }
+    .right-content > * {
+        display: block;
+    }
+    .line {
+        left: calc((100% - 2 * $contentWidth) / 2);
+    }
+}
+@media (min-width: 768px) {
+    li {
+        min-height: 100px;
+        padding-bottom: 100px;
+    }
+    li.timeline-inverted > .timeline-panel {
+        text-align: left;
+    }
+    .timeline-panel {
+        width: $contentWidth;
+        padding: 0 20px;
+    }
+    .empty-space > * {
+        display: none;
+    }
+    .line {
+        left: 50%;
+    }
+}
+@media (min-width: 992px) {
+    li {
+        min-height: 150px;
+        padding-bottom: 100px;
+    }
+    .timeline-panel {
+        width: $contentWidth;
+        padding: 0 20px 20px 20px;
+    }
+    .empty-space > * {
+        display: none;
+    }
+    .line {
+        left: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    li {
+        min-height: 150px;
+        padding-bottom: 100px;
+    }
+    .timeline-panel {
+        width: $contentWidth;
+        padding: 0 20px 20px 20px;
+    }
+    .empty-space > * {
+        display: none;
+    }
+    .line {
+        left: 50%;
+    }
+}
+.line {
+    height: 100%;
+    max-height: -webkit-fill-available;
+    max-height: -moz-fit-content;
+    max-height: fill-available;
+    width: 10px;
+    transform: translate(-50%, 0);
+    background-color: $primaryColor;
+    position: absolute;
+    z-index: -1;
+}

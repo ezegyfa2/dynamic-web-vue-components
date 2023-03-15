@@ -14,15 +14,11 @@ export default {
                 "current_language": "++current_language",
                 "links": [
                     {
-                        "url": "#offers",
-                        "content": "--layout.navbar.offers"
-                    },
-                    {
-                        "url": "#services",
+                        "url": "/#services",
                         "content": "--layout.navbar.services"
                     },
                     {
-                        "url": "#contact_us",
+                        "url": "/contact-us",
                         "content": "--layout.navbar.contact_us"
                     }
                 ],
@@ -36,7 +32,7 @@ export default {
             "params": {
                 "icons": [
                     {
-                        "url": "",
+                        "url": "https://www.facebook.com/profile.php?id=100084068406799",
                         "icon_class": "fab fa-facebook-f"
                     },
                     {

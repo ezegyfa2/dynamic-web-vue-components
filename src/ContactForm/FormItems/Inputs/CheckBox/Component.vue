@@ -1,5 +1,5 @@
 <script>
-    import CheckBoxInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/CheckBox/Component.vue'
+    import CheckBoxInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItems/Inputs/CheckBox/Component.vue'
 
     export default {
         mixins: [

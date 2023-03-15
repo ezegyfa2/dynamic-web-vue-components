@@ -18,10 +18,15 @@ section.page-section(v-bind:id='id')
                 v-bind:value='formItemSection.data.value'
                 v-on:update:value='(newValue) => { formItemSection.data.value = newValue }'
             )
-            .text-center
+            input(
+                name='client_id'
+                v-bind:value='clientId'
+                type='hidden'
+            )
+            .buttons.text-center
                 .form-item(v-if='currentPageNumber > 0')
-                    button.btn.btn-primary.form-item-control.text-align-center(type='button' @click='back') {{ back_button_title }}
+                    button.btn.btn-primary.btn-xl(type='button' @click='back') {{ back_button_title }}
                 .form-item(v-if='currentPageNumber < form_item_sections.length - 1')
-                    button.btn.btn-primary.form-item-control.text-align-center(type='button' @click='next') {{ next_button_title }}
+                    button.btn.btn-primary.btn-xl(type='button' @click='next') {{ next_button_title }}
                 .form-item(v-if='currentPageNumber == form_item_sections.length - 1')
-                    button.btn.btn-primary.form-item-control.text-align-center(type='submit' @click='submitForm') {{ button_title }}
+                    button.btn.btn-primary.btn-xl(type='submit' ref='submitButton' @click='submitForm') {{ button_title }}
