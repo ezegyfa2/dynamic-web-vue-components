@@ -5,13 +5,13 @@
 }
 .title {
     @extend .primary-text;
+    font-size: 1.2rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .content {
     @extend .secondary-text;
     font-style: italic;
-    margin-bottom: 4rem;
 }
 
 .title {
