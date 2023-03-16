@@ -14,6 +14,10 @@ export default {
                 "current_language": "++current_language",
                 "links": [
                     {
+                        "url": "/#team",
+                        "content": "--layout.navbar.about_us"
+                    },
+                    {
                         "url": "/#services",
                         "content": "--layout.navbar.services"
                     },

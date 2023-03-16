@@ -11,6 +11,13 @@
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
+                            "url": "/#team",
+                            "content": "--layout.navbar.about_us"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
                             "url": "/#services",
                             "content": "--layout.navbar.services"
                         }
@@ -25,12 +32,34 @@
                     {
                         "type": "dynamic-web-dropdown-navigation-link",
                         "data": {
-                            "badge_content": "++current_language",
+                            "badge_content": "RO",
                             "dropdown_section": {
                                 "type": "dynamic-web-list-dropdown",
                                 "data": {
-                                    "dropdown_item_sections": [],
-                                    "dropdown_link_id": "dropdown12"
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/hu",
+                                                "content": "HU"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "/language/ro",
+                                                "content": "RO"
+                                            }
+                                        }
+                                    ],
+                                    "dropdown_link_id": "dropdown14"
                                 }
                             }
                         }
@@ -237,12 +266,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "type": "dynamic-web-small-text-content",
-                                    "data": {
-                                        "title": "--welcome.workflow.footer_title"
-                                    }
                                 }
                             ]
                         }
@@ -255,8 +278,7 @@
                     "title_section": {
                         "type": "dynamic-web-team-medium-text-content",
                         "data": {
-                            "title": "--welcome.team.title",
-                            "content": "--welcome.team.subtitle"
+                            "title": "--welcome.team.title"
                         }
                     },
                     "member_sections": [
@@ -428,8 +450,7 @@
                                 }
                             }
                         }
-                    ],
-                    "footer_text": "--welcome.team.footer_text"
+                    ]
                 }
             }
         ],

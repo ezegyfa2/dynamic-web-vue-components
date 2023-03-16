@@ -11,6 +11,13 @@
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
+                            "url": "/#team",
+                            "content": "--layout.navbar.about_us"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
                             "url": "/#services",
                             "content": "--layout.navbar.services"
                         }
@@ -52,7 +59,7 @@
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown12"
+                                    "dropdown_link_id": "dropdown14"
                                 }
                             }
                         }
@@ -86,7 +93,7 @@
                                     "validation_errors": [],
                                     "maxlength": 255,
                                     "minlength": 0,
-                                    "placeholder": "Name"
+                                    "placeholder": "Név"
                                 }
                             },
                             {
@@ -125,7 +132,7 @@
                                     "validation_errors": [],
                                     "maxlength": 255,
                                     "minlength": 0,
-                                    "placeholder": "City"
+                                    "placeholder": "Város"
                                 }
                             }
                         ],
