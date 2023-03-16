@@ -16,8 +16,9 @@ section.page-section(v-bind:id='id')
                 v-bind:is='getConvertedType(formItemSection.type)'
                 v-bind='formItemSection.data'
                 v-bind:value='formItemSection.data.value'
-                v-on:update:value='(newValue) => { formItemSection.data.value = newValue }'
+                v-on:update:value='(newValue) => { valueChanged(formItemSection, newValue) }'
             )
+            p(v-if='currentPageNumber == 1') {{ sum_price_label }}: {{ sumPrice }}
             input(
                 name='client_id'
                 v-bind:value='clientId'

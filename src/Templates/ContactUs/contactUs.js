@@ -17,6 +17,7 @@ export default {
                         }
                     },
                     "form_item_sections": "++form_item_sections",
+                    "sum_price_label": "--contactUs.sum_price.label",
                     "button_title": "--contactUs.button_title",
                     "next_button_title": "--contactUs.next_button_title",
                     "back_button_title": "--contactUs.back_button_title",

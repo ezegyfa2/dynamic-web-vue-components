@@ -105,14 +105,13 @@
                             "type": "dynamic-web-description-section",
                             "data": {
                                 "text_content_section": {
-                                    "type": "small-black50-text-content",
+                                    "type": "dynamic-web-articles-small-text-content",
                                     "data": {
                                         "title": "--welcome.article1.title",
                                         "content": "--welcome.article1.content",
                                         "added_classes": {
                                             ".content": [
-                                                "mb-0",
-                                                "text-start"
+                                                "mb-0"
                                             ]
                                         }
                                     }
@@ -125,14 +124,13 @@
                             "type": "dynamic-web-description-section",
                             "data": {
                                 "text_content_section": {
-                                    "type": "small-black50-text-content",
+                                    "type": "dynamic-web-articles-small-text-content",
                                     "data": {
                                         "title": "--welcome.article2.title",
                                         "content": "--welcome.article2.content",
                                         "added_classes": {
                                             ".content": [
-                                                "mb-0",
-                                                "text-end"
+                                                "mb-0"
                                             ]
                                         }
                                     }
@@ -145,14 +143,13 @@
                             "type": "dynamic-web-description-section",
                             "data": {
                                 "text_content_section": {
-                                    "type": "small-black50-text-content",
+                                    "type": "dynamic-web-articles-small-text-content",
                                     "data": {
                                         "title": "--welcome.article3.title",
                                         "content": "--welcome.article3.content",
                                         "added_classes": {
                                             ".content": [
-                                                "mb-0",
-                                                "text-start"
+                                                "mb-0"
                                             ]
                                         }
                                     }
@@ -170,8 +167,8 @@
                     "title_section": {
                         "type": "dynamic-web-medium-text-content",
                         "data": {
-                            "title": "--welcome.roadmap.title",
-                            "content": "--welcome.roadmap.subtitle"
+                            "title": "--welcome.workflow.title",
+                            "content": "--welcome.workflow.subtitle"
                         }
                     },
                     "timeline_section": {
@@ -181,21 +178,13 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "assets/roadmap/idea.jpg",
+                                        "image_url": "images/roadmap/sample1000x1000.jpg",
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
                                                 "data": {
-                                                    "title": "--welcome.roadmap.idea.title",
-                                                    "sub_title": "--welcome.roadmap.idea.research_market.title",
-                                                    "content": "--welcome.roadmap.idea.research_market.content"
-                                                }
-                                            },
-                                            {
-                                                "type": "dynamic-web-two-title-text-content",
-                                                "data": {
-                                                    "sub_title": "--welcome.roadmap.idea.concept.title",
-                                                    "content": "--welcome.roadmap.idea.concept.content"
+                                                    "title": "--welcome.workflow.sketch.title",
+                                                    "content": "--welcome.workflow.sketch.content"
                                                 }
                                             }
                                         ]
@@ -204,22 +193,14 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "assets/roadmap/research.jpg",
+                                        "image_url": "images/roadmap/sample1000x1000.jpg",
                                         "is_inverted": true,
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
                                                 "data": {
-                                                    "title": "--welcome.roadmap.research.title",
-                                                    "sub_title": "--welcome.roadmap.research.components.title",
-                                                    "content": "--welcome.roadmap.research.components.content"
-                                                }
-                                            },
-                                            {
-                                                "type": "dynamic-web-two-title-text-content",
-                                                "data": {
-                                                    "sub_title": "--welcome.roadmap.research.costs.title",
-                                                    "content": "--welcome.roadmap.research.costs.content"
+                                                    "title": "--welcome.workflow.design.title",
+                                                    "content": "--welcome.workflow.design.content"
                                                 }
                                             }
                                         ]
@@ -228,21 +209,13 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "assets/roadmap/design.jpg",
+                                        "image_url": "images/roadmap/sample1000x1000.jpg",
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
                                                 "data": {
-                                                    "title": "--welcome.roadmap.design.title",
-                                                    "sub_title": "--welcome.roadmap.design.design_concepts.title",
-                                                    "content": "--welcome.roadmap.design.design_concepts.content"
-                                                }
-                                            },
-                                            {
-                                                "type": "dynamic-web-two-title-text-content",
-                                                "data": {
-                                                    "sub_title": "--welcome.roadmap.design.finalize_design.title",
-                                                    "content": "--welcome.roadmap.design.finalize_design.content"
+                                                    "title": "--welcome.workflow.develop.title",
+                                                    "content": "--welcome.workflow.develop.content"
                                                 }
                                             }
                                         ]
@@ -251,21 +224,15 @@
                                 {
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
-                                        "image_url": "assets/roadmap/prototyping.jpg",
+                                        "image_url": "images/roadmap/sample1000x1000.jpg",
                                         "is_inverted": true,
                                         "with_line": false,
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
                                                 "data": {
-                                                    "title": "--welcome.roadmap.prototyping.title",
-                                                    "content": "--welcome.roadmap.prototyping.functions"
-                                                }
-                                            },
-                                            {
-                                                "type": "dynamic-web-two-title-text-content",
-                                                "data": {
-                                                    "content": "--welcome.roadmap.prototyping.conditions"
+                                                    "title": "--welcome.workflow.test.title",
+                                                    "content": "--welcome.workflow.test.content"
                                                 }
                                             }
                                         ]
@@ -274,7 +241,7 @@
                                 {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
-                                        "title": "--welcome.roadmap.footer_title"
+                                        "title": "--welcome.workflow.footer_title"
                                     }
                                 }
                             ]
@@ -286,7 +253,7 @@
                 "type": "dynamic-web-team",
                 "data": {
                     "title_section": {
-                        "type": "dynamic-web-medium-text-content",
+                        "type": "dynamic-web-team-medium-text-content",
                         "data": {
                             "title": "--welcome.team.title",
                             "content": "--welcome.team.subtitle"
@@ -296,7 +263,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                                "image_url": "images/Articles/sample1000x1000.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -338,7 +305,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                                "image_url": "images/Articles/sample1000x1000.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -380,7 +347,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                                "image_url": "images/Articles/sample1000x1000.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -422,7 +389,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                                "image_url": "images/Articles/sample1000x1000.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",

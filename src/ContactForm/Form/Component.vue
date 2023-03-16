@@ -15,12 +15,16 @@
             },
             title_section: {
                 type: Object
+            },
+            sum_price_label: {
+                type: String
             }
         },
         data() {
             return {
                 formItemTypePrefix: 'dynamic-web-contact',
-                clientId: 0
+                clientId: 0,
+                sumPrice: 0
             }
         },
         methods: {
@@ -35,8 +39,24 @@
                         }
                     })
                 }
-            }/*,
-            submitForm() {
+            },
+            valueChanged(formItemSection, newValue) {
+                formItemSection.data.value = newValue
+                if (this.currentPageNumber == 1) {
+                    this.sumPrice = this.getSumPrice()
+                }
+            },
+            getSumPrice() {
+                let sum = 0
+                this.form_item_sections[this.currentPageNumber].forEach(formItemSection => {
+                    if (formItemSection.data && formItemSection.data.value === true) {
+                        sum += formItemSection.data.price
+                    }
+                })
+                return sum
+            }
+            
+            /*submitForm() {
                 $.post({
                     url: 'https://graph.facebook.com/{API_VERSION}/{PIXEL_ID}/events?access_token=EAAKgXuhD0hABACdNAZBABWp6U1o0oINvIFEZCShZBcWjZClzhFY9XADZCDaZBC8Ckz5tLuBXrrvcOnWfLYjuRplQ6oDAS6HJzPZAKViJMAXZBrZAZASnbNoNzq8He0zRUlgDTtKMZCF3Ch2ZB948Rd6cJvCgQpseM90AzZAVJoxP1wYHXiEMgDZAuYQWle',
                     data: this.getRequestData(this.form_item_sections[0])

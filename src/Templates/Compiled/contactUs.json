@@ -6,32 +6,26 @@
             "type": "dynamic-web-navigation-bar",
             "data": {
                 "title": "DYNAMIC-WEB",
+                "title_url": "/",
                 "links": [
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
-                            "url": "#offers",
-                            "content": "--layout.navbar.offers"
-                        }
-                    },
-                    {
-                        "type": "dynamic-web-navigation-link",
-                        "data": {
-                            "url": "#services",
+                            "url": "/#services",
                             "content": "--layout.navbar.services"
                         }
                     },
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
-                            "url": "#contact_us",
+                            "url": "/contact-us",
                             "content": "--layout.navbar.contact_us"
                         }
                     },
                     {
                         "type": "dynamic-web-dropdown-navigation-link",
                         "data": {
-                            "badge_content": "EN",
+                            "badge_content": "HU",
                             "dropdown_section": {
                                 "type": "dynamic-web-list-dropdown",
                                 "data": {
@@ -58,7 +52,7 @@
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown14"
+                                    "dropdown_link_id": "dropdown12"
                                 }
                             }
                         }
@@ -74,7 +68,7 @@
                     "id": "contact_us",
                     "url": "/contact-us",
                     "title_section": {
-                        "type": "dynamic-web-white-medium-text-content",
+                        "type": "dynamic-web-contact-text-content",
                         "data": {
                             "title": "--contactUs.title",
                             "content": "--contactUs.subtitle"
@@ -87,8 +81,8 @@
                                 "data": {
                                     "name": "name",
                                     "label": "contactUs.form.label.name",
-                                    "value": null,
-                                    "required": false,
+                                    "value": "",
+                                    "required": true,
                                     "validation_errors": [],
                                     "maxlength": 255,
                                     "minlength": 0,
@@ -100,7 +94,7 @@
                                 "data": {
                                     "name": "email",
                                     "label": "contactUs.form.label.email",
-                                    "value": null,
+                                    "value": "",
                                     "required": false,
                                     "validation_errors": [],
                                     "maxlength": 255,
@@ -113,12 +107,12 @@
                                 "data": {
                                     "name": "phone",
                                     "label": "contactUs.form.label.phone",
-                                    "value": null,
-                                    "required": false,
+                                    "value": "",
+                                    "required": true,
                                     "validation_errors": [],
                                     "maxlength": 20,
                                     "minlength": 0,
-                                    "placeholder": "Phone number"
+                                    "placeholder": "Telefonszám"
                                 }
                             },
                             {
@@ -126,7 +120,7 @@
                                 "data": {
                                     "name": "city",
                                     "label": "contactUs.form.label.city",
-                                    "value": null,
+                                    "value": "",
                                     "required": false,
                                     "validation_errors": [],
                                     "maxlength": 255,
@@ -137,29 +131,80 @@
                         ],
                         [
                             {
-                                "type": "select",
+                                "type": "checkbox-input",
                                 "data": {
-                                    "name": "client_id",
-                                    "label": "contactUs.form.label.client_id",
-                                    "value": "0",
-                                    "required": true,
-                                    "validation_errors": [],
-                                    "options": []
+                                    "name": "has_product_categories",
+                                    "label": "Termékkategóriák (A termékeket különböző kategóriákba lehet csoportosítani. A felhasználók rá tudnak keresni az egyes kategórián belüli termékekre)",
+                                    "price": 200
                                 }
                             },
                             {
-                                "type": "select",
+                                "type": "checkbox-input",
                                 "data": {
-                                    "name": "website_type_id",
-                                    "label": "contactUs.form.label.website_type_id",
-                                    "value": null,
-                                    "required": false,
-                                    "validation_errors": [],
-                                    "options": []
+                                    "name": "has_product_filters",
+                                    "label": "Termékszűrők (A felhasználók rá tudnak keresni adott termékekre kulcsszó, ár vagy más termék jellemző alapján)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_product_ratings",
+                                    "label": "Termékértékelések (A felhasználóknak lehetőségük van értékelést adni a termékekre egytől ötig. Az értékelések átlaga megjelenik a termék oldalán)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_product_comments",
+                                    "label": "Termék megjegyzések (A felhasználóknak lehetőségük van véleményt irni a termékekről ami megjelenik a termék oldalán)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_favorite_products",
+                                    "label": "Kedvenc termékek (A felhasználóknak lehetőségük van egy gombal bármely terméket a kedvencekhez adni)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_login",
+                                    "label": "Bejelentkezés (A felhasználóknak lehetőségük van regisztrálni az oldalra majd be és kijelentkezni)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_admin",
+                                    "label": "Admin panel (Egy felhasználói felület amin az oldal tulajdonosának lehetősége van kilistázni és szerkeszteni a termékeket)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_buy_notifications",
+                                    "label": "Értesítés vásárlás után (Az oldal tulajdonosa emailt kap minden vásárlás után)",
+                                    "price": 200
+                                }
+                            },
+                            {
+                                "type": "checkbox-input",
+                                "data": {
+                                    "name": "has_monthly_reports",
+                                    "label": "Havi jelentés (Oldal tulajdonosa lekérhet az adott hónap vásárlásairól egy összesített táblázatot ami összefoglalja vásárlásokkal kapcsolatos fontosabb információkat)",
+                                    "price": 200
                                 }
                             }
                         ]
                     ],
+                    "sum_price_label": "--contactUs.sum_price.label",
                     "button_title": "--contactUs.button_title",
                     "next_button_title": "--contactUs.next_button_title",
                     "back_button_title": "--contactUs.back_button_title"
@@ -176,7 +221,7 @@
                             {
                                 "type": "dynamic-web-button-icon-link",
                                 "data": {
-                                    "url": "",
+                                    "url": "https://www.facebook.com/profile.php?id=100084068406799",
                                     "icon_class": "fab fa-facebook-f"
                                 }
                             },
