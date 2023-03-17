@@ -1,0 +1,21 @@
+@import "../../formItem.scss";
+
+.form-check {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+input {
+    height: auto;
+    padding: 1.25rem;
+    background: #0091AD; 
+    border-color:#0091AD;
+    color: white;
+    padding: 0.7rem;
+    margin-top: 0 !important;
+    margin-right: 2rem;
+}
+input:checked {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}

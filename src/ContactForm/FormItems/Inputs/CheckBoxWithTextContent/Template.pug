@@ -1,0 +1,14 @@
+form-item-with-validation-errors(v-bind:validation_errors='validation_errors')
+    input.form-check-input(
+        ref='inputElement'
+        v-bind:name='name'
+        v-bind:placeholder='placeholder'
+        v-model='currentValue'
+        v-bind:required='required'
+        type='checkbox'
+        v-bind:class='invalidClass'
+    )
+    // Nem áll nekem ez össze, hogy ide most mit kell tenni. :-D Bocs.
+    dynamic-component(
+        v-bind:component_infos='title_section'
+        )
