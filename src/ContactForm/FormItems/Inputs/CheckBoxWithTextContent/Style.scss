@@ -12,10 +12,14 @@ input {
     border-color:#0091AD;
     color: white;
     padding: 0.7rem;
-    margin-top: 0 !important;
     margin-right: 2rem;
 }
 input:checked {
     background-color: $primaryColor;
     border-color: $primaryColor;
+}
+
+.form-item {
+    display: flex;
+    align-items: flex-start;
 }
