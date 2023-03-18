@@ -1,13 +1,21 @@
+<template lang="pug">
+    include Template.pug
+</template>
+
 <script>
-    import CheckBoxInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItems/Inputs/CheckBox/Component.vue'
-    import SmallTextContent from './../../../../../../text-contents-vue-components/src/SmallTextContent/Component.vue'
+    import CheckBoxInput from './../../../../../../helper-vue-components/src/Form/FormItemsWithoutLabel/Inputs/CheckBox/Component.vue'
 
     export default {
         mixins: [
-            CheckBoxInput,
-            SmallTextContent
+            CheckBoxInput
         ],
         props: {
+            title_label: {
+                type: String
+            },
+            description_label: {
+                type: String
+            },
             added_classes: {
                 type: Object,
                 default () {

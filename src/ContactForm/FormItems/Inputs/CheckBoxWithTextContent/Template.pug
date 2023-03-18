@@ -8,7 +8,7 @@ form-item-with-validation-errors(v-bind:validation_errors='validation_errors')
         type='checkbox'
         v-bind:class='invalidClass'
     )
-    // Nem áll nekem ez össze, hogy ide most mit kell tenni. :-D Bocs.
-    dynamic-component(
-        v-bind:component_infos='title_section'
-        )
+    dynamic-web-small-text-content(
+        v-bind:title='title_label'
+        v-bind:content='description_label'
+    )
