@@ -131,6 +131,12 @@ export default {
       'dynamic-web-vue-components/TextContents/SmallTextContent/Component.vue'
     );
     registerVueComponent(
+      'dynamic-web-contact-us-small-text-content',
+      require('./TextContents/ContactUsSmallTextContent/Component.vue').default,
+      Vue,
+      'dynamic-web-vue-components/TextContents/ContactUsSmallTextContent/Component.vue'
+    );
+    registerVueComponent(
       'dynamic-web-articles-small-text-content',
       require('./TextContents/ArticlesSmallTextContent/Component.vue').default,
       Vue,
