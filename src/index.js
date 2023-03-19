@@ -196,5 +196,11 @@ export default {
       Vue,
       'dynamic-web-vue-components/src/TextContents/TwoTitleTextContent/Component.vue'
     );
+    registerVueComponent(
+      'dynamic-web-latest-works',
+      require('./LatestWorks/Component.vue').default,
+      Vue,
+      'dynamic-web-vue-components/src/LatestWorks/Component.vue'
+    );
   },
 };
