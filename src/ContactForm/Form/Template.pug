@@ -18,7 +18,7 @@ section.page-section(v-bind:id='id')
                 v-bind:value='formItemSection.data.value'
                 v-on:update:value='(newValue) => { valueChanged(formItemSection, newValue) }'
             )
-            p(v-if='currentPageNumber == 1') {{ sum_price_label }}: {{ sumPrice }}
+            p(v-if='currentPageNumber > 0') {{ sum_price_label }}: {{ sumPrice }}
             input(
                 name='client_id'
                 v-bind:value='clientId'
@@ -30,4 +30,4 @@ section.page-section(v-bind:id='id')
                 .form-item(v-if='currentPageNumber < form_item_sections.length - 1')
                     button.btn.btn-primary.btn-xl(type='button' @click='next') {{ next_button_title }}
                 .form-item(v-if='currentPageNumber == form_item_sections.length - 1')
-                    button.btn.btn-primary.btn-xl(type='submit' ref='submitButton' @click='submitForm') {{ button_title }}
+                    button.btn.btn-primary.btn-xl(type='submit' ref='submitButton') {{ button_title }}
