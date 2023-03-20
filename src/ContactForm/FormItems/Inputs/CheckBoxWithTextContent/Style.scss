@@ -8,8 +8,8 @@
 input {
     height: auto;
     padding: 1.25rem;
-    background: #0091AD; 
-    border-color:#0091AD;
+    background: $baseColor; 
+    border-color: $baseColor;
     color: white;
     padding: 0.7rem;
     margin-right: 2rem;
@@ -24,8 +24,13 @@ input:checked {
     align-items: flex-start;
 }
 
-p {
+.price {
     font-size: 1.2rem;
     margin: 0 0 0 2rem;
-    color: #0091AD;
+    color: $baseColor;
+}
+@media (min-width: 768px) {
+    .price {
+        width: 150px;
+    }
 }

@@ -9,16 +9,18 @@ section.page-section(v-bind:id='id')
             v-on:submit='submitForm'
         )
             csrf-input
-            component(
-                v-for='formItemSection in form_item_sections[this.currentPageNumber]'
-                v-bind:key='formItemSection.data.name'
-                v-bind:ref='formItemSection.data.name'
-                v-bind:is='getConvertedType(formItemSection.type)'
-                v-bind='formItemSection.data'
-                v-bind:value='formItemSection.data.value'
-                v-on:update:value='(newValue) => { valueChanged(formItemSection, newValue) }'
-            )
-            p(v-if='currentPageNumber > 0') {{ sum_price_label }}: {{ sumPrice }}
+            div(v-for='formItemSections in form_item_sections')
+                component(
+                    v-bind:style='getHiddenStyle(formItemSections)'
+                    v-for='formItemSection in formItemSections'
+                    v-bind:key='formItemSection.data.name'
+                    v-bind:ref='formItemSection.data.name'
+                    v-bind:is='getConvertedType(formItemSection.type)'
+                    v-bind='formItemSection.data'
+                    v-bind:value='formItemSection.data.value'
+                    v-on:update:value='(newValue) => { valueChanged(formItemSection, newValue) }'
+                )
+            p(v-if='currentPageNumber > 0') {{ sum_price_label }}: {{ sumPrice }} RON
             input(
                 name='client_id'
                 v-bind:value='clientId'

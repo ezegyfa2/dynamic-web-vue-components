@@ -17,7 +17,7 @@
                 type: String
             },
             price: {
-                type: String
+                type: Number
             },
             added_classes: {
                 type: Object,
