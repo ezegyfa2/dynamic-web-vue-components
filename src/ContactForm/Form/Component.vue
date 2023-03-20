@@ -42,17 +42,17 @@
             },
             valueChanged(formItemSection, newValue) {
                 formItemSection.data.value = newValue
-                if (this.currentPageNumber == 1) {
-                    this.sumPrice = this.getSumPrice()
-                }
+                this.sumPrice = this.getSumPrice()
             },
             getSumPrice() {
                 let sum = 0
-                this.form_item_sections[this.currentPageNumber].forEach(formItemSection => {
-                    if (formItemSection.data && formItemSection.data.value === true) {
-                        sum += formItemSection.data.price
-                    }
-                })
+                for (let i = 1; i < this.form_item_sections.length; ++i) {
+                    this.form_item_sections[i].forEach(formItemSection => {
+                        if (formItemSection.data && formItemSection.data.value === true) {
+                            sum += formItemSection.data.price
+                        }
+                    })
+                }
                 return sum
             }
             
