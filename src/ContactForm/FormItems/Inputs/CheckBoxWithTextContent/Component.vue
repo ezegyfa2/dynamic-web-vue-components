@@ -16,6 +16,9 @@
             description_label: {
                 type: String
             },
+            price: {
+                type: String
+            },
             added_classes: {
                 type: Object,
                 default () {

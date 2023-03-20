@@ -13,6 +13,7 @@
 .content {
     @extend .secondary-text;
     font-style: normal;
+    min-width: 356px;
 }
 
 .title {

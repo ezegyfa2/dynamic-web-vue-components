@@ -14,7 +14,6 @@ export default {
             data: {
               title: '--contactUs.title',
               content: '--contactUs.subtitle',
-              price: '--contactUs.price',
             },
           },
           form_item_sections: '++form_item_sections',
