@@ -54,7 +54,7 @@ export default {
           title_section: {
             type: 'dynamic-web-medium-text-content',
             data: {
-              title: '--welcome.latest.title',
+              title: '--welcome.our_works.title',
             },
           },
           images: [
