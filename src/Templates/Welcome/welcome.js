@@ -60,63 +60,35 @@ export default {
           images: [
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/beautiful-vegan-restaurant-landing-page-template_1361-898.jpg',
+              image_url: 'images/latestworks/7554326.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/beauty-salon-booking-app_52683-39803.jpg',
+              image_url: 'images/latestworks/6207747.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/blogger-email-template-collection_23-2148743274.jpg',
+              image_url: 'images/latestworks/7534274.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/ecommerce-email-template_23-2148737349.jpg',
+              image_url: 'images/latestworks/8285773.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/fashion-shopping-app-pack-template_23-2148651171.jpg',
+              image_url: 'images/latestworks/5471806.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/fitness-email-template_23-2148743277.jpg',
+              image_url: 'images/latestworks/4264527.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/furniture-shopping-app-concept_23-2148662516.jpg',
+              image_url: 'images/latestworks/4141109.jpg',
             },
             {
               image_alt: '',
-              image_url:
-                'images/latestworks/furniture-shopping-app-interface_23-2148659898.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-blog-template-design_23-2149648665.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-e-commerce-app-template_23-2149579024.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-e-commerce-website-template_23-2149579044.jpg',
-            },
-            {
-              image_alt: '',
-              image_url:
-                'images/latestworks/gradient-furniture-sale-landing-page-with-photo_23-2148930455.jpg',
+              image_url: 'images/latestworks/3175709.jpg',
             },
           ],
         },
