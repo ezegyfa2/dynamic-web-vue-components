@@ -57,7 +57,7 @@ export default {
         params: {
           name: 'Benedek Csaba',
           title: '--welcome.team.members.benedek_csaba',
-          image_url: 'images/Articles/sample1000x1000.jpg',
+          image_url: 'images/Articles/benedek_csaba.jpg',
           icons: [
             {
               url: '',
