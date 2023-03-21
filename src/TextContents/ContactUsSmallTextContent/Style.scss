@@ -13,7 +13,13 @@
 .content {
     @extend .secondary-text;
     font-style: normal;
-    min-width: 356px;
+    width: 356px;
+}
+
+@media (max-width: 425px) {
+    .content {
+        width: 168px;
+    }
 }
 
 .title {
