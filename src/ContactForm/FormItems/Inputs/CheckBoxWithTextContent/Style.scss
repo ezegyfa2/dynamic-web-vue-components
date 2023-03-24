@@ -1,5 +1,11 @@
 @import "../../formItem.scss";
 
+.form-item {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
 .form-check {
     margin-bottom: 2rem;
     display: flex;
@@ -19,18 +25,15 @@ input:checked {
     border-color: $primaryColor;
 }
 
-.form-item {
-    display: flex;
-    align-items: flex-start;
-}
-
 .price {
     font-size: 1.2rem;
-    margin: 0 0 0 2rem;
+    margin-left: 2rem;
     color: $baseColor;
 }
-@media (min-width: 768px) {
+
+@media (max-width: 425px) {
     .price {
-        width: 150px;
+        font-size: .9rem;
+        margin-left: 1rem;
     }
 }
