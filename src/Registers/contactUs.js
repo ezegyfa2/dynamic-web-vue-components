@@ -17,7 +17,6 @@ export default {
         Vue.component('dynamic-web-dark-link', require('../../dynamic-web-vue-components/src/DarkLink/Component.vue').default)
         Vue.component('dynamic-web-success-session-message', require('../../dynamic-web-vue-components/src/SessionMessages/SuccessMessage/Component.vue').default)
         
-        
         require('./ContactForm/Register.js').default.install(Vue)
 
         Vue.component('dynamic-web-contact-form', require('../../dynamic-web-vue-components/src/ContactForm/Form/Component.vue').default)

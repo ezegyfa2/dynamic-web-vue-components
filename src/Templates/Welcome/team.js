@@ -16,15 +16,15 @@ export default {
           image_url: 'images/Articles/darvas_istvan.jpg',
           icons: [
             {
-              url: '',
+              url: 'https://twitter.com/DarvasIstvan1',
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/ismeros.vaok/',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/darvas-istvan-2a921a26b/',
               class: 'fab fa-linkedin-in',
             },
           ],
@@ -38,15 +38,15 @@ export default {
           image_url: 'images/Articles/bagota_jozsef.jpg',
           icons: [
             {
-              url: '',
+              url: 'https://twitter.com/JBagota',
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/jbagota',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/jbagota/',
               class: 'fab fa-linkedin-in',
             },
           ],
@@ -60,15 +60,15 @@ export default {
           image_url: 'images/Articles/benedek_csaba.jpg',
           icons: [
             {
-              url: '',
+              url: 'https://twitter.com/CsabaBenedek27',
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/csaba.benedek.106',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/csaba-benedek-87522b26b',
               class: 'fab fa-linkedin-in',
             },
           ],
@@ -82,15 +82,15 @@ export default {
           image_url: 'images/Articles/kovacs_szilard.jpg',
           icons: [
             {
-              url: '',
+              url: 'https://twitter.com/kSzili03',
               class: 'fab fa-twitter',
             },
             {
-              url: '',
+              url: 'https://www.facebook.com/szilard.kovacs.754918',
               class: 'fab fa-facebook-f',
             },
             {
-              url: '',
+              url: 'https://www.linkedin.com/in/szil%C3%A1rd-kov%C3%A1cs-71615326b/',
               class: 'fab fa-linkedin-in',
             },
           ],
