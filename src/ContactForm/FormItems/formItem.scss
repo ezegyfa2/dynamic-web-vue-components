@@ -8,10 +8,10 @@
     display: block;
     width: 100%;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 1.5;
     color: $primaryColor;
-    background-color: $secondaryColor;
+    background-color: $baseColor2;
     background-clip: padding-box;
     border: 1px solid $secondaryColor;
     -webkit-appearance: none;
@@ -29,32 +29,38 @@
 ::placeholder {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 900;
-    color: #ced4da;
+    /* 400 */
+    font-weight: 400;
+    color: $primaryColor;
+    opacity: 0.4;
 }
 ::-webkit-input-placeholder {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 900;
-    color: #ced4da;
+    font-weight: 400;
+    color: $primaryColor;
+    opacity: 0.4;
 }
 :-moz-placeholder {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 900;
-    color: #ced4da;
+    font-weight: 400;
+    color: $primaryColor;
+    opacity: 0.4;
 }
 ::-moz-placeholder {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 900;
-    color: #ced4da;
+    font-weight: 400;
+    color: $primaryColor;
+    opacity: 0.4;
 }
 :-ms-input-placeholder {
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 900;
-    color: #ced4da;
+    font-weight: 400;
+    color: $primaryColor;
+    opacity: 0.4;
 }
 
 p.help-block {

@@ -9,19 +9,27 @@ section.page-section(v-bind:id='id')
             v-on:submit='submitForm'
         )
             csrf-input
-            .row.align-items-stretch.mb-5
-                .col-md-6
-                    dynamic-component(
-                        v-for='formItemSection in leftFormItemSections'
-                        v-bind:component_infos='formItemSection'
-                    )
-                .col-md-6
-                    dynamic-component(
-                        v-for='formItemSection in rightFormItemSections'
-                        v-bind:component_infos='formItemSection'
-                    )
-            .text-center
-                button.btn.btn-primary.btn-xl(
-                    type='submit'
-                    v-bind:disabled='submitted'
-                ) {{ button_title }}
+            div(v-for='formItemSections in form_item_sections')
+                component(
+                    v-bind:style='getHiddenStyle(formItemSections)'
+                    v-for='formItemSection in formItemSections'
+                    v-bind:key='formItemSection.data.name'
+                    v-bind:ref='formItemSection.data.name'
+                    v-bind:is='getConvertedType(formItemSection.type)'
+                    v-bind='formItemSection.data'
+                    v-bind:value='formItemSection.data.value'
+                    v-on:update:value='(newValue) => { valueChanged(formItemSection, newValue) }'
+                )
+            p(v-if='currentPageNumber > 0') {{ sum_price_label }}: {{ sumPrice }} RON
+            input(
+                name='client_id'
+                v-bind:value='clientId'
+                type='hidden'
+            )
+            .buttons.text-center
+                .form-item(v-if='currentPageNumber > 0')
+                    button.btn.btn-primary.btn-xl(type='button' @click='back') {{ back_button_title }}
+                .form-item(v-if='currentPageNumber < form_item_sections.length - 1')
+                    button.btn.btn-primary.btn-xl(type='button' @click='next') {{ next_button_title }}
+                .form-item(v-if='currentPageNumber == form_item_sections.length - 1')
+                    button.btn.btn-primary.btn-xl(type='submit' ref='submitButton') {{ button_title }}

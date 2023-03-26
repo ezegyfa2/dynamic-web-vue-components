@@ -1,4 +1,5 @@
 @import "../../globals.scss";
+@import "../../../../helper-vue-components/src/NavigationBar/CollapsableNavigationBar/Style.scss";
 
 .navbar {
     padding-top: 1.5rem;
@@ -19,8 +20,4 @@
 
 .navbar-toggler .fa-bars {
     margin-left: 0.5rem;
-}
-
-.navbar-nav {
-    text-align: right;
 }

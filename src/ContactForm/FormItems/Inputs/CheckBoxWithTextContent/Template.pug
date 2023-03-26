@@ -1,0 +1,15 @@
+form-item-with-validation-errors(v-bind:validation_errors='validation_errors')
+    input.form-check-input(
+        ref='inputElement'
+        v-bind:name='name'
+        v-bind:placeholder='placeholder'
+        v-model='currentValue'
+        v-bind:required='required'
+        type='checkbox'
+        v-bind:class='invalidClass'
+    )
+    dynamic-web-contact-us-small-text-content(
+        v-bind:title='title_label'
+        v-bind:content='description_label'
+    )
+    p.price {{ price }} RON

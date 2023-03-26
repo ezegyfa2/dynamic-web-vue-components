@@ -10,7 +10,7 @@ export default {
                         "title": "++title",
                         "content": "++content",
                         "button_title": "++button.title",
-                        "button_link": "#contact_us"
+                        "button_link": "#services"
                     }
                 }
             }

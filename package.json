@@ -13,6 +13,7 @@
   "dependencies": {
     "just-clone": "^3.2.1",
     "text-contents-vue-components": "*",
+    "description-vue-components": "*",
     "helper-vue-components": "*"
   },
   "author": "ezegyfa",

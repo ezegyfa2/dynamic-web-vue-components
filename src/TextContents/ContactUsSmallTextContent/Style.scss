@@ -1,0 +1,30 @@
+@import "../../globals";
+
+.text-center {
+    text-align: left !important;
+    padding: 0 0 3rem 0;
+}
+.title {
+    @extend .primary-text;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.content {
+    @extend .secondary-text;
+    font-style: normal;
+    width: 356px;
+}
+
+@media (max-width: 425px) {
+    .content {
+        width: 168px;
+    }
+}
+
+.title {
+    color: $primaryColor;
+}
+.content {
+    color: $primaryColor;
+}
