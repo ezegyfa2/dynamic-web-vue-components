@@ -24,12 +24,12 @@
         },
         computed: {
             leftFormItemSections() {
-                return this.convertedFormItemSections.filter(function(formItemSection) {
+                return this.convertedFormItemSections.filter((formItemSection) => {
                     return formItemSection.data.name != 'message'
                 })
             },
             rightFormItemSections() {
-                return this.convertedFormItemSections.filter(function(formItemSection) {
+                return this.convertedFormItemSections.filter((formItemSection) => {
                     return formItemSection.data.name == 'message'
                 })
             }
