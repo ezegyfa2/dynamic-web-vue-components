@@ -11,15 +11,29 @@
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
-                            "url": "/#team",
-                            "content": "--layout.navbar.about_us"
+                            "url": "/#services",
+                            "content": "--layout.navbar.services"
                         }
                     },
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
-                            "url": "/#services",
-                            "content": "--layout.navbar.services"
+                            "url": "/#how_we_do",
+                            "content": "--layout.navbar.how_we_do"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_team",
+                            "content": "--layout.navbar.our_team"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_works",
+                            "content": "--layout.navbar.our_works"
                         }
                     },
                     {
@@ -32,34 +46,11 @@
                     {
                         "type": "dynamic-web-dropdown-navigation-link",
                         "data": {
-                            "badge_content": "EN",
+                            "badge_content": "++current_language",
                             "dropdown_section": {
                                 "type": "dynamic-web-list-dropdown",
                                 "data": {
-                                    "dropdown_item_sections": [
-                                        {
-                                            "type": "dynamic-web-link-dropdown-item",
-                                            "data": {
-                                                "url": "/language/en",
-                                                "content": "EN"
-                                            }
-                                        },
-                                        {
-                                            "type": "dynamic-web-link-dropdown-item",
-                                            "data": {
-                                                "url": "/language/hu",
-                                                "content": "HU"
-                                            }
-                                        },
-                                        {
-                                            "type": "dynamic-web-link-dropdown-item",
-                                            "data": {
-                                                "url": "/language/ro",
-                                                "content": "RO"
-                                            }
-                                        }
-                                    ],
-                                    "dropdown_link_id": "dropdown14"
+                                    "dropdown_item_sections": []
                                 }
                             }
                         }
@@ -191,7 +182,7 @@
                 }
             },
             {
-                "type": "dynamic-web-roadmap",
+                "type": "dynamic-web-how-we-do",
                 "data": {
                     "title_section": {
                         "type": "dynamic-web-medium-text-content",
@@ -285,7 +276,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/sample1000x1000.jpg",
+                                "image_url": "images/Articles/darvas_istvan.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -301,21 +292,21 @@
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://twitter.com/DarvasIstvan1",
                                                     "icon_class": "fab fa-twitter"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.facebook.com/ismeros.vaok/",
                                                     "icon_class": "fab fa-facebook-f"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.linkedin.com/in/darvas-istvan-2a921a26b/",
                                                     "icon_class": "fab fa-linkedin-in"
                                                 }
                                             }
@@ -327,7 +318,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/sample1000x1000.jpg",
+                                "image_url": "images/Articles/bagota_jozsef.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -343,21 +334,21 @@
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://twitter.com/JBagota",
                                                     "icon_class": "fab fa-twitter"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.facebook.com/jbagota",
                                                     "icon_class": "fab fa-facebook-f"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.linkedin.com/in/jbagota/",
                                                     "icon_class": "fab fa-linkedin-in"
                                                 }
                                             }
@@ -369,7 +360,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/sample1000x1000.jpg",
+                                "image_url": "images/Articles/benedek_csaba.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -385,21 +376,21 @@
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://twitter.com/CsabaBenedek27",
                                                     "icon_class": "fab fa-twitter"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.facebook.com/csaba.benedek.106",
                                                     "icon_class": "fab fa-facebook-f"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.linkedin.com/in/csaba-benedek-87522b26b",
                                                     "icon_class": "fab fa-linkedin-in"
                                                 }
                                             }
@@ -411,7 +402,7 @@
                         {
                             "type": "dynamic-web-team-member",
                             "data": {
-                                "image_url": "images/Articles/sample1000x1000.jpg",
+                                "image_url": "images/Articles/kovacs_szilard.jpg",
                                 "image_alt": "...",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
@@ -427,21 +418,21 @@
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://twitter.com/kSzili03",
                                                     "icon_class": "fab fa-twitter"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.facebook.com/szilard.kovacs.754918",
                                                     "icon_class": "fab fa-facebook-f"
                                                 }
                                             },
                                             {
                                                 "type": "dynamic-web-button-icon-link",
                                                 "data": {
-                                                    "url": "",
+                                                    "url": "https://www.linkedin.com/in/szil%C3%A1rd-kov%C3%A1cs-71615326b/",
                                                     "icon_class": "fab fa-linkedin-in"
                                                 }
                                             }
@@ -465,51 +456,35 @@
                     "images": [
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/beautiful-vegan-restaurant-landing-page-template_1361-898.jpg"
+                            "image_url": "images/latestworks/7554326.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/beauty-salon-booking-app_52683-39803.jpg"
+                            "image_url": "images/latestworks/6207747.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/blogger-email-template-collection_23-2148743274.jpg"
+                            "image_url": "images/latestworks/7534274.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/ecommerce-email-template_23-2148737349.jpg"
+                            "image_url": "images/latestworks/8285773.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/fashion-shopping-app-pack-template_23-2148651171.jpg"
+                            "image_url": "images/latestworks/5471806.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/fitness-email-template_23-2148743277.jpg"
+                            "image_url": "images/latestworks/4264527.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/furniture-shopping-app-concept_23-2148662516.jpg"
+                            "image_url": "images/latestworks/4141109.jpg"
                         },
                         {
                             "image_alt": "",
-                            "image_url": "images/latestworks/furniture-shopping-app-interface_23-2148659898.jpg"
-                        },
-                        {
-                            "image_alt": "",
-                            "image_url": "images/latestworks/gradient-blog-template-design_23-2149648665.jpg"
-                        },
-                        {
-                            "image_alt": "",
-                            "image_url": "images/latestworks/gradient-e-commerce-app-template_23-2149579024.jpg"
-                        },
-                        {
-                            "image_alt": "",
-                            "image_url": "images/latestworks/gradient-e-commerce-website-template_23-2149579044.jpg"
-                        },
-                        {
-                            "image_alt": "",
-                            "image_url": "images/latestworks/gradient-furniture-sale-landing-page-with-photo_23-2148930455.jpg"
+                            "image_url": "images/latestworks/3175709.jpg"
                         }
                     ]
                 }

@@ -4,7 +4,13 @@
     export default {
         mixins: [
             Roadmap,
-        ]
+        ],
+        props: {
+            id: {
+                type: String,
+                default: 'how_we_do'
+            }
+        }
     }
 </script>
 

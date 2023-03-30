@@ -4,7 +4,13 @@
     export default {
         mixins: [
             Team
-        ]
+        ],
+        props: {
+            id: {
+                type: String,
+                default: 'our_team'
+            }
+        }
     }
 </script>
 

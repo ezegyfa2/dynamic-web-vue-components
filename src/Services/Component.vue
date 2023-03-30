@@ -6,7 +6,8 @@
     export default {
         props: {
             id: {
-                type: String
+                type: String,
+                default: 'services'
             },
             text_content_sections: {
                 type: Array
