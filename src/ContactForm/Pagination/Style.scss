@@ -1,0 +1,24 @@
+@import "../../globals.scss";
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.lines {
+    display: flex;
+    width: 50%;
+}
+
+.normal-line {
+    border-bottom: 2px solid $baseColor;
+    margin-right: .5rem;
+    width: 100%;
+}
+
+.bold-line {
+    border-bottom: 5px solid $baseColor;
+    margin-right: .5rem;
+    width: 100%;
+}

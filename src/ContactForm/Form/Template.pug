@@ -31,6 +31,9 @@ section.page-section(v-bind:id='id')
                 v-bind:value='orderType'
                 type='hidden'
             )
+            dynamic-component(
+                v-bind:component_infos='contact_pagination_section'
+            )
             .buttons.text-center
                 .form-item
                     button.btn.btn-primary.btn-xl(type='button' v-on:click='back') {{ back_button_title }}

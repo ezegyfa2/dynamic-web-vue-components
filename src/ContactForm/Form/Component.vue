@@ -31,6 +31,9 @@
             },
             client_form_item_sections: {
                 type: Array
+            },
+            contact_pagination_section: {
+                type: Object
             }
         },
         data() {

@@ -12,5 +12,6 @@ export default {
 		registerVueComponent(prefix + '-textarea', require('./FormItems/TextArea/Component.vue').default, Vue)
 		registerVueComponent(prefix + '-text-content', require('./TextContent/Component.vue').default, Vue)
 		registerVueComponent(prefix + '-radio', require('./FormItems/Radio/Component.vue').default, Vue)
+		registerVueComponent(prefix + '-pagination', require('./Pagination/Component.vue').default, Vue)
     }
 }
