@@ -8,17 +8,23 @@
 
 .lines {
     display: flex;
+    align-items: flex-end;
     width: 50%;
 }
 
 .normal-line {
-    border-bottom: 2px solid $baseColor;
-    margin-right: .5rem;
-    width: 100%;
+    @extend .line;
+    height: 2px;
 }
 
 .bold-line {
-    border-bottom: 5px solid $baseColor;
-    margin-right: .5rem;
+    @extend .line;
+    height: 5px;
+}
+
+.line {
     width: 100%;
+    background-color: $baseColor;
+    margin-right: .5rem;
+    border-radius: 2px;
 }

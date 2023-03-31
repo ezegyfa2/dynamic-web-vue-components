@@ -5,43 +5,30 @@
 <script>
     export default {
         props: {
-            line_number: {
+            line_count: {
                 type: Number,
                 default: 0
             },
-        },
-        data() {
-            return {
-                lines: this.makeLines(),
-                currentIndex: 0,
+            current_index: {
+                type: Number,
+                default: 0
             }
         },
         methods: {
-            makeLines() {
-                let lines = []
-                if (this.line_number > 0) {
-                    for (let i = 0; i < this.line_number; i++) {
-                        if (i === 0) {
-                            lines.push('bold-line')
-                        } else {
-                            lines.push('normal-line')
-                        }
-                    }
-                }
-                return lines
-            },
             previous() {
-                const newLines = [...this.lines];
-                newLines[this.currentIndex] = 'normal-line';
-                this.lines = newLines;
-                this.currentIndex--;
+                this.$emit('update:current_index', this.current_index - 1)
             },
             next() {
-                const newLines = [...this.lines];
-                this.currentIndex++;
-                newLines[this.currentIndex] = 'bold-line';
-                this.lines = newLines;
+                this.$emit('update:current_index', this.current_index + 1)
             },
+            getLineClass(lineNumber) {
+                if (lineNumber <= this.current_index) {
+                    return 'bold-line'
+                }
+                else {
+                    return 'normal-line'
+                }
+            }
         }
     }
 </script>

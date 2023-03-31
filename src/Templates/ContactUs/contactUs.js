@@ -23,13 +23,7 @@ export default {
                     sum_price_label: '--contactUs.sum_price.label',
                     button_title: '--contactUs.button_title',
                     next_button_title: '--contactUs.next_button_title',
-                    back_button_title: '--contactUs.back_button_title',
-                    contact_pagination_section: {
-                        type: 'dynamic-web-contact-pagination',
-                        data: {
-                            line_number: 5,
-                        },
-                    },
+                    back_button_title: '--contactUs.back_button_title'
                 },
             },
         ],

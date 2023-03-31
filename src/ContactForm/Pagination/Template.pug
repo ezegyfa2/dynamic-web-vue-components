@@ -1,3 +1,7 @@
 .line-container
     .lines
-        div(v-for='(elem, i) in lines' :key='i' :class='elem')
+        div(
+            v-for='i in line_count' 
+            v-bind:key='i' 
+            v-bind:class='getLineClass(i)'
+        )

@@ -31,8 +31,10 @@ section.page-section(v-bind:id='id')
                 v-bind:value='orderType'
                 type='hidden'
             )
-            dynamic-component(
-                v-bind:component_infos='contact_pagination_section'
+            dynamic-web-contact-pagination(
+                v-if='currentPageNumber > 0 && form_item_sections.length > 2'
+                v-bind:line_count='form_item_sections.length - 1'
+                v-bind:current_index='currentPageNumber'
             )
             .buttons.text-center
                 .form-item
