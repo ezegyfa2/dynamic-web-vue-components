@@ -1,0 +1,20 @@
+@import "../../../globals.scss";
+
+section {
+    margin-bottom: 3rem;
+}
+
+h3 {
+    margin: 1.5rem 0 1.5rem .5rem;
+    text-transform: uppercase;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.extra-margin-input {
+    margin: 0 32px 0 5px;
+}
