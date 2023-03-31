@@ -93,8 +93,9 @@
                     $.post({
                         url: 'https://graph.facebook.com/v16.0/740173934391972/events?access_token=EAAKgXuhD0hABAHuizsiH4BqnWNp0Rhi3Wx2sgv41C6mCo6YN04sghp6ZA4IECaKpJb7LEga8hsVvNnY0BKeEvkIqxs1SMsVJGkntuYOPgILdvWZA0IrDP6uBqOTbPET1kIzDFT9W17OwjKMf1Rcm9YuJUVaP3zd5MmaYf9WZCkyE4w5hqdx',
                         data: this.getFacebookAPIData()
-                    }).done(response => {
+                    }).fail(response => {
                         console.log(response)
+                    }).always(() => {
                         this.$refs.form.submit()
                     })
                 }
