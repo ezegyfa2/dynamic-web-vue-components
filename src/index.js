@@ -107,6 +107,13 @@ export default {
             'dynamic-web-vue-components/TextContents/MediumTextContent/Component.vue'
         );
         registerVueComponent(
+          'dynamic-web-medium-text-content-with-button',
+          require('./TextContents/MediumTextContentWithButton/Component.vue')
+            .default,
+          Vue,
+          'dynamic-web-vue-components/TextContents/MediumTextContentWithButton/Component.vue'
+        );
+        registerVueComponent(
             'dynamic-web-team-medium-text-content',
             require('./TextContents/TeamMediumTextContent/Component.vue').default,
             Vue,
