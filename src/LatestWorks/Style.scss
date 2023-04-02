@@ -4,12 +4,12 @@ section {
 
 @media (min-width: 768px) {
     .page-section {
-        padding: 6rem 0;
+        padding-top: 3rem;
     }
 }
 @media (max-width: 768px) {
     .page-section {
-        padding: 3rem 0;
+        padding: 1.5rem;
     }
 }
 .page-section {
@@ -32,4 +32,8 @@ img {
 
 img:hover {
     transform: scale(1.2);
+}
+
+.margin-top {
+    margin-top: 6rem;
 }

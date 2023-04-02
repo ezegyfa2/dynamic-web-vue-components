@@ -14,6 +14,9 @@
             },
             images: {
                 type: Array
+            },
+            contact_us_section: {
+                type: Object
             }
         }
     }
