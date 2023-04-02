@@ -10,6 +10,7 @@ export default {
             data: {
               title: '--welcome.article1.title',
               content: '--welcome.article1.content',
+              url: '/contact-us',
               added_classes: {
                 '.content': ['mb-0'],
               },
@@ -27,6 +28,7 @@ export default {
             data: {
               title: '--welcome.article2.title',
               content: '--welcome.article2.content',
+              url: '/contact-us',
               added_classes: {
                 '.content': ['mb-0'],
               },
@@ -45,6 +47,7 @@ export default {
             data: {
               title: '--welcome.article3.title',
               content: '--welcome.article3.content',
+              url: '/contact-us',
               added_classes: {
                 '.content': ['mb-0'],
               },

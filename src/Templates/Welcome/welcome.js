@@ -91,6 +91,16 @@ export default {
                             image_url: 'images/latestworks/3175709.jpg',
                         },
                     ],
+                    contact_us_section: {
+                        type: 'dynamic-web-medium-text-content-with-button',
+                        data: {
+                          title: 'Contact us',
+                          content:
+                            'Should you need any further information, please do not hesitate to contact us.',
+                          url: '/contact-us',
+                          button_content: 'Contact us',
+                        },
+                    },
                 },
             },
         ],
