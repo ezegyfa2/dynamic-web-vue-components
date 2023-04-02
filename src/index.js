@@ -4,7 +4,7 @@ export default {
         require('helper-vue-components').default.install(Vue);
         require('description-vue-components').default.install(Vue);
         require('text-contents-vue-components').default.install(Vue);
-        require('./ContactForm/register.js').default.install(Vue);
+        require('./RequestOfferForm/register.js').default.install(Vue);
         require('./Templates/templateRegister.js').default.install();
 
         registerVueComponent(
@@ -69,10 +69,10 @@ export default {
         );
 
         registerVueComponent(
-            'dynamic-web-contact-form',
-            require('./ContactForm/Form/Component.vue').default,
+            'dynamic-web-request-offer-form',
+            require('./RequestOfferForm/Form/Component.vue').default,
             Vue,
-            'dynamic-web-vue-components/ContactForm/Form/Component.vue'
+            'dynamic-web-vue-components/RequestOfferForm/Form/Component.vue'
         );
         registerVueComponent(
             'dynamic-web-success-session-message',
@@ -131,10 +131,10 @@ export default {
             'dynamic-web-vue-components/TextContents/SmallTextContent/Component.vue'
         );
         registerVueComponent(
-            'dynamic-web-contact-us-small-text-content',
-            require('./TextContents/ContactUsSmallTextContent/Component.vue').default,
+            'dynamic-web-request-offer-small-text-content',
+            require('./TextContents/RequestOfferSmallTextContent/Component.vue').default,
             Vue,
-            'dynamic-web-vue-components/TextContents/ContactUsSmallTextContent/Component.vue'
+            'dynamic-web-vue-components/TextContents/RequestOfferSmallTextContent/Component.vue'
         );
         registerVueComponent(
             'dynamic-web-articles-small-text-content',

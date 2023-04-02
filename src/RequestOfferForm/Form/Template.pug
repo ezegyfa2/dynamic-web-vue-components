@@ -31,7 +31,7 @@ section.page-section(v-bind:id='id')
                 v-bind:value='orderType'
                 type='hidden'
             )
-            dynamic-web-contact-pagination(
+            dynamic-web-request-offer-pagination(
                 v-if='currentPageNumber > 0 && form_item_sections.length > 2'
                 v-bind:line_count='form_item_sections.length - 1'
                 v-bind:current_index='currentPageNumber'

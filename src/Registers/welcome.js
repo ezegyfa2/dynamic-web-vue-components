@@ -36,11 +36,11 @@ export default {
         Vue.component('dynamic-web-team', require('./Team/Team/Component.vue').default)
         Vue.component('dynamic-web-team-member', require('./Team/Member/Component.vue').default)
         Vue.component('dynamic-web-team-medium-text-content', require('./TextContents/TeamMediumTextContent/Component.vue').default)
-        Vue.component('dynamic-web-roadmap', require('./Roadmap/Component.vue').default)
+        Vue.component('dynamic-web-how-we-do', require('./HowWeDo/Component.vue').default)
         Vue.component('dynamic-web-timeline', require('./Timeline/Timeline/Component.vue').default)
         Vue.component('dynamic-web-timeline-item', require('./Timeline/TimelineItem/Component.vue').default)
         Vue.component('dynamic-web-latest-works', require('./LatestWorks/Component.vue').default)
-        Vue.component('dynamic-web-contact-us-small-text-content', require('./TextContents/ContactUsSmallTextContent/Component.vue').default)
+        Vue.component('dynamic-web-request-offer-small-text-content', require('./TextContents/RequestOfferSmallTextContent/Component.vue').default)
         Vue.component('dynamic-web-articles-small-text-content', require('./TextContents/ArticlesSmallTextContent/Component.vue').default)
         Vue.component('dynamic-web-two-title-text-content', require('./TextContents/TwoTitleTextContent/Component.vue').default)
     }

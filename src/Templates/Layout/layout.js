@@ -30,8 +30,8 @@ export default {
                         "content": "--layout.navbar.our_works"
                     },
                     {
-                        "url": "/contact-us",
-                        "content": "--layout.navbar.contact_us"
+                        "url": "/request-offer",
+                        "content": "--layout.navbar.request_offer"
                     },
                 ],
                 "languages": "-++navbar.languages"
