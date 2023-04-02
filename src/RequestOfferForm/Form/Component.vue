@@ -38,12 +38,16 @@
         },
         data() {
             return {
-                formItemTypePrefix: 'dynamic-web-contact',
+                formItemTypePrefix: 'dynamic-web-request-offer',
                 clientId: 0,
                 sumPrice: 0,
                 orderType: 0,
-                baseFormItemSections: []
+                baseFormItemSections: [],
+                max: 0,
             }
+        },
+        mounted() {
+            this.max = this.getTotalPrice()
         },
         methods: {
             next() {
@@ -86,6 +90,15 @@
                         if (formItemSection.data && formItemSection.data.value === true) {
                             sum += formItemSection.data.price
                         }
+                    })
+                }
+                return sum
+            },
+            getTotalPrice() {
+                let sum = 0
+                for (let i = 1; i < this.form_item_sections.length; ++i) {
+                    this.form_item_sections[i].forEach(formItemSection => {
+                        sum += formItemSection.data.price
                     })
                 }
                 return sum

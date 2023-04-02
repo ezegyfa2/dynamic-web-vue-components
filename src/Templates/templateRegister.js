@@ -16,6 +16,6 @@ export default {
         window.templates.dynamic_web_team_member = require('./Welcome/teamMember').default
         window.templates.dynamic_web_how_we_do = require('./Welcome/howWeDo').default
         
-        window.templates.dynamic_web_contact_us = require('./ContactUs/contactUs').default
+        window.templates.dynamic_web_request_offer = require('./RequestOffer/requestOffer').default
     }
 }
