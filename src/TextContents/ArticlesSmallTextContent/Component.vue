@@ -1,3 +1,7 @@
+<template lang="pug">
+    include Template.pug
+</template>
+
 <script>
     import SmallTextContent from '../../../../text-contents-vue-components/src/SmallTextContent/Component.vue'
 
@@ -6,12 +10,19 @@
             SmallTextContent
         ],
         props: {
+            url: {
+                type: String
+            },
+            button_content: {
+                type: String,
+                default: 'Contact us'
+            },
             added_classes: {
                 type: Object,
                 default () {
                     return{
                         '.title': 'text-uppercase',
-                        '.content': 'text-muted'
+                        '.content': 'text-muted',
                     }
                 }
             }

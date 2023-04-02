@@ -20,3 +20,26 @@
 .content {
     color: $primaryColor;
 }
+
+.link {
+    margin-top: 2rem;
+}
+
+.btn, .btn:disabled {
+    color: #fff;
+    background-color: $baseColor;
+    border-color: $baseColor;
+}
+
+.btn:hover {
+    color: $primaryColor;
+    background-color: $baseColor2;
+    border-color: $baseColor2;
+}
+
+.btn-l {
+    padding: .75rem 1.25rem;
+    font-family: $secondaryFontFamily;
+    font-size: 1rem;
+    font-weight: 700;
+}
