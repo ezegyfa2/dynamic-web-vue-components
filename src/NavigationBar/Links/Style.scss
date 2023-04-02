@@ -15,6 +15,10 @@
     color: #65687d;
 }
 
+a[href="/contact-us"].nav-link {
+    font-weight: bold;
+}
+
 .navbar-shrink {
     .nav-link, .badge {
         color: $secondaryColor;
