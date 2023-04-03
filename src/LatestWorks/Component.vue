@@ -15,7 +15,7 @@
             images: {
                 type: Array
             },
-            contact_us_section: {
+            request_offer_section: {
                 type: Object
             }
         }

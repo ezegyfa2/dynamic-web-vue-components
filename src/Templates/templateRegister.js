@@ -17,5 +17,7 @@ export default {
         window.templates.dynamic_web_how_we_do = require('./Welcome/howWeDo').default
         
         window.templates.dynamic_web_request_offer = require('./RequestOffer/requestOffer').default
+
+        window.templates.dynamic_web_thank_you = require('./ThankYou/thankYou').default
     }
 }
