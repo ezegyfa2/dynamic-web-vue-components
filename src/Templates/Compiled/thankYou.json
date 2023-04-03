@@ -1,0 +1,206 @@
+{
+    "type": "landing-page",
+    "data": {
+        "success_message_sections": [],
+        "navbar_section": {
+            "type": "dynamic-web-navigation-bar",
+            "data": {
+                "title": "DYNAMIC-WEB",
+                "title_url": "/",
+                "links": [
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#services",
+                            "content": "--layout.navbar.services"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#how_we_do",
+                            "content": "--layout.navbar.how_we_do"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_team",
+                            "content": "--layout.navbar.our_team"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/#our_works",
+                            "content": "--layout.navbar.our_works"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-navigation-link",
+                        "data": {
+                            "url": "/request-offer",
+                            "content": "--layout.navbar.request_offer"
+                        }
+                    },
+                    {
+                        "type": "dynamic-web-dropdown-navigation-link",
+                        "data": {
+                            "badge_content": "EN",
+                            "dropdown_section": {
+                                "type": "dynamic-web-list-dropdown",
+                                "data": {
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/thank-you/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/thank-you/hu",
+                                                "content": "HU"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/thank-you/ro",
+                                                "content": "RO"
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "header_section": {},
+        "content_sections": [
+            {
+                "type": "description-section-container",
+                "data": {
+                    "description_sections": [
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-articles-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article1.title",
+                                        "content": "--welcome.article1.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                                "image_alt": "..."
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-articles-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article2.title",
+                                        "content": "--welcome.article2.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "images/Articles/e-commerce-shop-online-homepage-sale-concept.jpg",
+                                "image_alt": "..."
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "dynamic-web-articles-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.article3.title",
+                                        "content": "--welcome.article3.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "images/Articles/hands-holding-credit-card-typing-laptop.jpg",
+                                "image_alt": "..."
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "dynamic-web-request-offer-text-content",
+                "data": {
+                    "title": "--requestOffer.title",
+                    "content": "--requestOffer.subtitle"
+                }
+            }
+        ],
+        "footer_section": {
+            "type": "dynamic-web-footer",
+            "data": {
+                "icon_links_section": {
+                    "type": "wertically-icon-links",
+                    "data": {
+                        "icon_sections": [
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "https://www.facebook.com/profile.php?id=100084068406799",
+                                    "icon_class": "fab fa-facebook-f"
+                                }
+                            },
+                            {
+                                "type": "dynamic-web-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fa-brands fa-linkedin-in"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "footer_link_sections": [
+                    {
+                        "type": "dynamic-web-dark-link",
+                        "data": {
+                            "url": "/privacy_policy",
+                            "content": "--layout.footer.privacy_policy",
+                            "added_classes": {
+                                "root": "me-3"
+                            }
+                        }
+                    }
+                ],
+                "copyright": {
+                    "company_name": "--layout.footer.copyright.company_name",
+                    "content": "--layout.footer.copyright.content"
+                }
+            }
+        }
+    }
+}

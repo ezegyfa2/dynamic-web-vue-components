@@ -78,11 +78,10 @@ export default {
                     {
                         type: 'dynamic-web-medium-text-content-with-button',
                         data: {
-                            title: 'Contact us',
-                            content:
-                                'Please feel free to contact us if you need any further information.',
-                            url: '/contact-us',
-                            button_content: 'Contact us'
+                            title: '--welcome.request_offer.title',
+                            content: '--welcome.request_offer.content',
+                            url: '/request-offer',
+                            button_content: '--welcome.request_offer.button_content',
                         },
                     },
                 ],

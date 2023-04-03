@@ -39,18 +39,40 @@
                     {
                         "type": "dynamic-web-navigation-link",
                         "data": {
-                            "url": "/contact-us",
-                            "content": "--layout.navbar.contact_us"
+                            "url": "/request-offer",
+                            "content": "--layout.navbar.request_offer"
                         }
                     },
                     {
                         "type": "dynamic-web-dropdown-navigation-link",
                         "data": {
-                            "badge_content": "++current_language",
+                            "badge_content": "EN",
                             "dropdown_section": {
                                 "type": "dynamic-web-list-dropdown",
                                 "data": {
-                                    "dropdown_item_sections": []
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/hu",
+                                                "content": "HU"
+                                            }
+                                        },
+                                        {
+                                            "type": "dynamic-web-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://dynamic-web.test/ro",
+                                                "content": "RO"
+                                            }
+                                        }
+                                    ]
                                 }
                             }
                         }
@@ -129,6 +151,8 @@
                                     "data": {
                                         "title": "--welcome.article1.title",
                                         "content": "--welcome.article1.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -148,6 +172,8 @@
                                     "data": {
                                         "title": "--welcome.article2.title",
                                         "content": "--welcome.article2.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -167,6 +193,8 @@
                                     "data": {
                                         "title": "--welcome.article3.title",
                                         "content": "--welcome.article3.content",
+                                        "button_content": "--welcome.article_button_content",
+                                        "url": "/contact-us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -256,6 +284,15 @@
                                                 }
                                             }
                                         ]
+                                    }
+                                },
+                                {
+                                    "type": "dynamic-web-medium-text-content-with-button",
+                                    "data": {
+                                        "title": "--welcome.request_offer.title",
+                                        "content": "--welcome.request_offer.content",
+                                        "url": "/request-offer",
+                                        "button_content": "--welcome.request_offer.button_content"
                                     }
                                 }
                             ]
@@ -486,7 +523,16 @@
                             "image_alt": "",
                             "image_url": "images/latestworks/3175709.jpg"
                         }
-                    ]
+                    ],
+                    "request_offer_section": {
+                        "type": "dynamic-web-medium-text-content-with-button",
+                        "data": {
+                            "title": "--welcome.request_offer.title",
+                            "content": "--welcome.request_offer.content",
+                            "url": "/request-offer",
+                            "button_content": "--welcome.request_offer.button_content"
+                        }
+                    }
                 }
             }
         ],

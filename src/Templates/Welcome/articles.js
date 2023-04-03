@@ -29,6 +29,7 @@ export default {
                         data: {
                             title: '--welcome.article2.title',
                             content: '--welcome.article2.content',
+                            button_content: '--welcome.article_button_content',
                             url: '/contact-us',
                             added_classes: {
                                 '.content': ['mb-0'],
@@ -48,6 +49,7 @@ export default {
                         data: {
                             title: '--welcome.article3.title',
                             content: '--welcome.article3.content',
+                            button_content: '--welcome.article_button_content',
                             url: '/contact-us',
                             added_classes: {
                                 '.content': ['mb-0'],

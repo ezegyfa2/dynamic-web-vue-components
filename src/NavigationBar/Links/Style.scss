@@ -11,13 +11,6 @@
 .nav-link {
     margin-right: 1rem;
 }
-.nav-link.active, .nav-link:hover, .badge:active, .badge:hover {
-    color: #65687d;
-}
-
-a[href="/contact-us"].nav-link {
-    font-weight: bold;
-}
 
 .navbar-shrink {
     .nav-link, .badge {
