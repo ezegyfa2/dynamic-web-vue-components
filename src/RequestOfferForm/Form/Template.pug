@@ -37,7 +37,7 @@ section.page-section(v-bind:id='id')
                 v-bind:current_index='currentPageNumber'
             )
             .buttons.text-center
-                .form-item
+                .form-item(v-if='currentPageNumber > 0')
                     button.btn.btn-primary.btn-xl(type='button' v-on:click='back') {{ back_button_title }}
                 .form-item(v-if='currentPageNumber == 0 || currentPageNumber < form_item_sections.length - 1')
                     button.btn.btn-primary.btn-xl(type='button' v-on:click='next') {{ next_button_title }}
