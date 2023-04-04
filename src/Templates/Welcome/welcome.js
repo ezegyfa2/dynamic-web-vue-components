@@ -3,18 +3,18 @@ export default {
     params: {
         success_messages: '++success_messages',
         current_language: '++current_language',
-        header_section: {
-            template_type_name: 'dynamic_web_header',
-            params: {
-                title: '--layout.header.title',
-                content: '--layout.header.content',
-                button: {
-                    title: '--layout.header.button.title',
-                    url: '#offers',
+        content_sections: [
+            {
+                template_type_name: 'dynamic_web_header',
+                params: {
+                    title: '--layout.header.title',
+                    content: '--layout.header.content',
+                    button: {
+                        title: '--layout.header.button.title',
+                        url: '#offers',
+                    },
                 },
             },
-        },
-        content_sections: [
             {
                 template_type_name: 'dynamic_web_services',
                 params: {

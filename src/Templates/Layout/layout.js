@@ -1,5 +1,5 @@
 export default {
-    "type": "landing-page",
+    "type": "dynamic-web-page",
     "data": {
         "success_message_sections": {
             "type": "dynamic-web-success-session-message",
@@ -37,7 +37,6 @@ export default {
                 "languages": "-++navbar.languages"
             }
         },
-        "header_section": "++header_section",
         "content_sections": "++content_sections",
         "footer_section": {
             "template_type_name": "dynamic_web_footer",

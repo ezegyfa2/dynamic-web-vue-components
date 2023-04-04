@@ -1,7 +1,6 @@
 export default {
     template_type_name: 'dynamic_web_layout',
     params: {
-        header_section: {},
         current_language: '++current_language',
         content_sections: [
             {

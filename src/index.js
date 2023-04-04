@@ -8,6 +8,13 @@ export default {
         require('./Templates/templateRegister.js').default.install();
 
         registerVueComponent(
+            'dynamic-web-page',
+            require('./Page/Component.vue').default,
+            Vue,
+            'dynamic-web-vue-components/Page/Component.vue'
+        );
+
+        registerVueComponent(
             'dynamic-web-navigation-bar',
             require('./NavigationBar/NavigationBar/Component.vue').default,
             Vue,
