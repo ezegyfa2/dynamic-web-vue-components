@@ -1,5 +1,9 @@
 export default {
     install(Vue) {
+        window.facebookAccessToken = 'EAAKgXuhD0hABACmD7m1QuXOpVlvD3UgaZCD6PCBxZAZClPQlKBPir9fHgmCQP5W16fOMU8CkzhjxCrFI80iF8KVLX8ziSEjMF0uJNfWZCjLgiIqZCmawtjiRWzSrO7258ZBuIB9FZBXfWGvLnbWpMwfsyxppbbZCUEZC0X4opbp8COfLkaX0IZCAIr1WfFejRPwZBUZD'
+        window.facebookPixelId = '740173934391972'
+        window.facebookTestEventCode = 'TEST6553'
+
         require('js-helper-methods');
         require('helper-vue-components').default.install(Vue);
         require('description-vue-components').default.install(Vue);

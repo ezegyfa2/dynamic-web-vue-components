@@ -44,10 +44,12 @@
                 orderType: 0,
                 baseFormItemSections: [],
                 max: 0,
+                lastSentClientData: '',
             }
         },
         mounted() {
             this.max = this.getTotalPrice()
+            this.form_item_sections = this.getFormItemSections()
         },
         methods: {
             next() {
@@ -59,17 +61,26 @@
                     this.orderType = this.getSelectedOrderType()
                     ++this.currentPageNumber
                     if (this.currentPageNumber == 1) {
-                        $.post({
-                            url: '/contact-us/clients',
-                            data: this.getRequestData(this.form_item_sections[0])
-                        }).done(response => {
-                            if (response.success) {
-                                this.clientId = response.id
-                            }
-                        })
+                        this.sendClientData()
                         this.form_item_sections = this.getFormItemSections()
                         this.sumPrice = this.getSumPrice()
                     }
+                }
+            },
+            sendClientData() {
+                if (this.lastSentClientData != this.getClientData()) {
+                    this.lastSentClientData = this.getClientData()
+                    $.post({
+                        url: '/request-offer/clients',
+                        data: this.getRequestData(this.form_item_sections[0])
+                    }).done(response => {
+                        if (response.success) {
+                            this.clientId = response.id
+                        }
+                    })
+                    sendFacebookAPIEvent('InitiateCheckout', sha256(this.getEmail())).always(response => {
+                        console.log(response)
+                    })
                 }
             },
             getSelectedOrderType() {
@@ -106,15 +117,23 @@
             submitForm() {
                 if (!this.submitted) {
                     this.submitted = true
-                    $.post({
-                        url: 'https://graph.facebook.com/v16.0/740173934391972/events?access_token=EAAKgXuhD0hABAHuizsiH4BqnWNp0Rhi3Wx2sgv41C6mCo6YN04sghp6ZA4IECaKpJb7LEga8hsVvNnY0BKeEvkIqxs1SMsVJGkntuYOPgILdvWZA0IrDP6uBqOTbPET1kIzDFT9W17OwjKMf1Rcm9YuJUVaP3zd5MmaYf9WZCkyE4w5hqdx',
-                        data: this.getFacebookAPIData()
-                    }).fail(response => {
+                    let customData = {
+                        currency: 'RON',
+                        value: this.getSumPrice()
+                    }
+                    sendFacebookAPIEvent('ViewContent', sha256(this.getEmail()), customData).always(response => {
                         console.log(response)
-                    }).always(() => {
                         this.$refs.form.submit()
                     })
                 }
+            },
+            getEmail() {
+                for (let formItemSection of this.form_item_sections[0]) {
+                    if (formItemSection.data && formItemSection.data.name == 'email') {
+                        return formItemSection.data.value
+                    }
+                }
+                return null
             },
             back() {
                 if (this.currentPageNumber == 0) {
@@ -132,29 +151,14 @@
                     return [ this.client_form_item_sections, ...this.presentation_website_form_item_sections ]
                 }
             },
-            getFacebookAPIData() {
-                return {
-                    data: [
-                        {
-                            event_name: 'Purchase',
-                            event_time: 1679777643,
-                            action_source: 'website',
-                            user_data: {
-                                em: [
-                                    sha256('asd@asd.com')
-                                ],
-                                ph: [
-                                    null
-                                ]
-                            },
-                            custom_data: {
-                                currency: 'RON',
-                                value: this.getSumPrice()
-                            }
-                        }
-                    ],
-                    test_event_code: 'TEST10976'
-                }
+            getClientData() {
+                let clientFormItemSections = this.form_item_sections[0].filter(formItemSection => {
+                    return formItemSection.data && formItemSection.data.value && formItemSection.data.name != 'order_type'
+                })
+                let clientValues = clientFormItemSections.map(formItemSection => {
+                    return formItemSection.data.value
+                })
+                return JSON.stringify(clientValues)
             }
         }
     }
