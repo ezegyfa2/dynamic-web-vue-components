@@ -4,11 +4,11 @@
 .navbar {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background-color: transparent;
+    background-color: $navbarColor;
 }
 
 .navbar.navbar-shrink {
-    background-color: #0c9db9;
+    background-color: $navbarColor2;
 }
 
 .navbar-brand {
