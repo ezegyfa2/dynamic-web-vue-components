@@ -13,28 +13,6 @@ export default {
             "template_type_name": "dynamic_web_navigation_bar",
             "params": {
                 "current_language": "++current_language",
-                "links": [
-                    {
-                        "url": "/#services",
-                        "content": "--layout.navbar.services"
-                    },
-                    {
-                        "url": "/#how_we_do",
-                        "content": "--layout.navbar.how_we_do"
-                    },
-                    {
-                        "url": "/#our_team",
-                        "content": "--layout.navbar.our_team"
-                    },
-                    {
-                        "url": "/#our_works",
-                        "content": "--layout.navbar.our_works"
-                    },
-                    {
-                        "url": "/request-offer",
-                        "content": "--layout.navbar.request_offer"
-                    },
-                ],
                 "languages": "-++navbar.languages"
             }
         },

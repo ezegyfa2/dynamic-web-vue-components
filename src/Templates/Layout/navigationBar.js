@@ -6,11 +6,37 @@ export default {
         "links": [
             {
                 "type": "dynamic-web-navigation-link",
-                "array_data": "links",
-                "merge_to_parent": true,
                 "data": {
-                    "url": "++links.url",
-                    "content": "++links.content"
+                    "url": "/#services",
+                    "content": "--layout.navbar.services"
+                }
+            },
+            {
+                "type": "dynamic-web-navigation-link",
+                "data": {
+                    "url": "/#how_we_do",
+                    "content": "--layout.navbar.how_we_do"
+                }
+            },
+            {
+                "type": "dynamic-web-navigation-link",
+                "data": {
+                    "url": "/#our_team",
+                    "content": "--layout.navbar.our_team"
+                }
+            },
+            {
+                "type": "dynamic-web-navigation-link",
+                "data": {
+                    "url": "/#our_works",
+                    "content": "--layout.navbar.our_works"
+                }
+            },
+            {
+                "type": "dynamic-web-button-navigation-link",
+                "data": {
+                    "url": "/request-offer",
+                    "content": "--layout.navbar.request_offer"
                 }
             },
             {
