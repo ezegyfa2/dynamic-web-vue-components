@@ -17,6 +17,20 @@ h3 {
     margin-bottom: 1.5rem;
 }
 
+.form-check-input[type=radio] {
+    padding: 0.7rem;
+    background-color: $baseColor;
+    border-color: $baseColor;
+    color: $secondaryColor;
+}
+
+.form-check-input:checked[type=radio] {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}
+
+
+
 .extra-margin-input {
     margin: 0 32px 0 5px;
 }
