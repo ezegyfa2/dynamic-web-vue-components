@@ -1,5 +1,10 @@
 @import "../../globals";
 
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
 .nav-link, .badge {
     font-family: $secondaryFontFamily;
     font-size: 0.95rem;
@@ -10,6 +15,10 @@
 }
 .nav-link {
     margin-right: 1rem;
+}
+
+.nav-link:hover, .badge:hover {
+    color: $baseColor;
 }
 
 .navbar-shrink {
