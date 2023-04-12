@@ -1,6 +1,7 @@
 export default {
-    "type": "dynamic-web-page",
+    "type": "page-with-facebook-events",
     "data": {
+        "event_infos": "++event_infos",
         "success_message_sections": {
             "type": "dynamic-web-success-session-message",
             "array_data": "success_messages",

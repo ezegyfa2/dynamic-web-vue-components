@@ -1,6 +1,12 @@
 export default {
     template_type_name: 'dynamic_web_layout',
     params: {
+        event_infos: [
+            {
+                name: 'PageView',
+                id: 1
+            }
+        ],
         success_messages: '++success_messages',
         current_language: '++current_language',
         content_sections: [

@@ -10,6 +10,9 @@
             Radio,
         ],
         props: {
+            title: {
+                type: String
+            },
             options: {
                 type: Array
             }
