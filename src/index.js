@@ -24,6 +24,12 @@ export default {
             'dynamic-web-vue-components/NavigationBar/Links/NavigationLink/Component.vue'
         );
         registerVueComponent(
+            'dynamic-web-button-navigation-link',
+            require('./NavigationBar/Links/ButtonNavigationLink/Component.vue').default,
+            Vue,
+            'dynamic-web-vue-components/NavigationBar/Links/ButtonNavigationLink/Component.vue'
+        );
+        registerVueComponent(
             'dynamic-web-dropdown-navigation-link',
             require('./NavigationBar/Links/DropdownNavigationLink/NavigationLink/Component.vue')
                 .default,
