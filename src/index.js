@@ -84,6 +84,14 @@ export default {
             Vue,
             'dynamic-web-vue-components/RequestOfferForm/Form/Component.vue'
         );
+
+        registerVueComponent(
+            'dynamic-web-thank-you',
+            require('./ThankYou/Component.vue').default,
+            Vue,
+            'dynamic-web-vue-components/ThankYou/Component.vue'
+        );
+
         registerVueComponent(
             'dynamic-web-success-session-message',
             require('./SessionMessages/SuccessMessage/Component.vue').default,
