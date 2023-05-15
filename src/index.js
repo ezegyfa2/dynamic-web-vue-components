@@ -107,6 +107,13 @@ export default {
         );
 
         registerVueComponent(
+            'dynamic-web-fixed-footer',
+            require('./FixedFooter/Component.vue').default,
+            Vue,
+            'dynamic-web-vue-components/src/FixedFooter/Component.vue'
+        );
+
+        registerVueComponent(
             'dynamic-web-upper-line-text-content',
             require('./TextContents/TextContentWithUpperLine/Component.vue').default,
             Vue,

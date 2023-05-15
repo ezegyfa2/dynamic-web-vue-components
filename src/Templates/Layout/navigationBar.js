@@ -3,7 +3,7 @@ export default {
     "data": {
         "title": "DYNAMIC-WEB",
         "title_url": "/",
-        "links": [
+        "link_sections": [
             {
                 "type": "dynamic-web-navigation-link",
                 "data": {
