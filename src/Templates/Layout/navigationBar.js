@@ -35,7 +35,7 @@ export default {
             {
                 "type": "dynamic-web-button-navigation-link",
                 "data": {
-                    "url": "/request-offer",
+                    "url": "-++navbar.request_offer_url",
                     "content": "--layout.navbar.request_offer"
                 }
             },

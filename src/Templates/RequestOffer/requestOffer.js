@@ -17,7 +17,7 @@ export default {
                 type: 'dynamic-web-request-offer-form',
                 data: {
                     id: 'request_offer',
-                    url: '/request-offer',
+                    url: '-++form_url',
                     title_section: {
                         type: 'dynamic-web-request-offer-text-content',
                         data: {
