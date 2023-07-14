@@ -7,8 +7,8 @@ export default {
                 "content_section": {
                     "type": "dynamic-web-upper-line-text-content",
                     "data": {
-                        "title": "++title",
-                        "content": "++content",
+                        "title": "--layout.header.title",
+                        "content": "--layout.header.content",
                         "button_title": "++button.title",
                         "button_link": "#services"
                     }

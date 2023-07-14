@@ -35,14 +35,14 @@ export default {
             {
                 "type": "dynamic-web-button-navigation-link",
                 "data": {
-                    "url": "-++navbar.request_offer_url",
+                    "url": "-++request_offer_url",
                     "content": "--layout.navbar.request_offer"
                 }
             },
             {
                 "type": "dynamic-web-dropdown-navigation-link",
                 "data": {
-                    "badge_content": "++current_language",
+                    "badge_content": "-++current_language",
                     "dropdown_section": {
                         "type": "dynamic-web-list-dropdown",
                         "data": {

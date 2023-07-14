@@ -7,14 +7,10 @@ export default {
                 id: 1
             }
         ],
-        success_messages: '++success_messages',
-        current_language: '++current_language',
         content_sections: [
             {
                 template_type_name: 'dynamic_web_header',
                 params: {
-                    title: '--layout.header.title',
-                    content: '--layout.header.content',
                     button: {
                         title: '--layout.header.button.title',
                         url: '#offers',
