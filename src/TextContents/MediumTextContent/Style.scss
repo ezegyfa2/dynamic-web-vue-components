@@ -5,7 +5,10 @@
 }
 .title {
     @extend .primary-text;
+    color: $primaryColor;
     font-size: 2.5rem;
+    text-transform: uppercase;
+    hyphens: auto;
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -13,12 +16,17 @@
     @extend .secondary-text;
     font-size: 1rem;
     font-style: italic;
+    color: $textMutedColor;
     margin-bottom: 4rem;
+    padding: 0 1rem;
 }
 
-.title {
-    color: $primaryColor;
-}
-.content {
-    color: $primaryColor;
+@media screen and (max-width: 320px) {
+    .text-center {
+        padding: 2rem 0;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
 }

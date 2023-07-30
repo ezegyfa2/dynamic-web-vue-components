@@ -8,3 +8,9 @@
 .link:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 320px) {
+    .me-3 {
+        margin-right: 0 !important;
+    }
+}

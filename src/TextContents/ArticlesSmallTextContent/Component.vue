@@ -16,15 +16,6 @@
             button_content: {
                 type: String,
                 default: 'Contact us'
-            },
-            added_classes: {
-                type: Object,
-                default () {
-                    return{
-                        '.title': 'text-uppercase',
-                        '.content': 'text-muted',
-                    }
-                }
             }
         }
     }

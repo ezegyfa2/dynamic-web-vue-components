@@ -5,20 +5,17 @@
 }
 .title {
     @extend .primary-text;
+    color: $primaryColor;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    hyphens: auto;
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
 .content {
     @extend .secondary-text;
     text-align: justify;
-}
-
-.title {
-    color: $primaryColor;
-}
-.content {
-    color: $primaryColor;
+    color: $textMutedColor;
 }
 
 .link {

@@ -6,7 +6,10 @@
 }
 .title {
     @extend .primary-text;
+    color: $primaryColor;
     font-size: 1.2rem;
+    text-transform: uppercase;
+    hyphens: auto;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -14,17 +17,11 @@
     @extend .secondary-text;
     font-style: normal;
     width: 356px;
+    color: $textMutedColor;
 }
 
 @media (max-width: 425px) {
     .content {
         width: 168px;
     }
-}
-
-.title {
-    color: $primaryColor;
-}
-.content {
-    color: $primaryColor !important;
 }

@@ -9,7 +9,7 @@ section.page-section(v-bind:id='id')
             v-bind:method='method'
         )
             csrf-input
-            div(v-for='formItemSections in form_item_sections' v-bind:key='formItemSections[0].data.name')
+            div(v-for='forms in form_item_sections' v-bind:key='formItemSections[0].data.name')
                 component(
                     v-bind:style='getHiddenStyle(formItemSections)'
                     v-for='formItemSection in formItemSections'
