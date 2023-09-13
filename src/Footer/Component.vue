@@ -1,5 +1,5 @@
 <script>
-    import Footer from './../../../helper-vue-components/src/Footer/Footer/Component';
+    import Footer from 'helper-vue-components/Footer/Footer/Component';
 
     export default {
         mixins: [

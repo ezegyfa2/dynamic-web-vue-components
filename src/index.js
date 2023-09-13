@@ -4,10 +4,10 @@ export default {
         window.facebookPixelId = '740173934391972'
         window.facebookTestEventCode = 'TEST6553'
 
-        require('js-helper-methods');
-        require('helper-vue-components').default.install(Vue);
-        require('description-vue-components').default.install(Vue);
-        require('text-contents-vue-components').default.install(Vue);
+        require('js-helper-methods/index');
+        require('helper-vue-components/index').default.install(Vue);
+        require('description-vue-components/index').default.install(Vue);
+        require('text-contents-vue-components/index').default.install(Vue);
         require('./RequestOfferForm/register.js').default.install(Vue);
         require('./Templates/templateRegister.js').default.install();
 

@@ -1,5 +1,5 @@
 <script>
-    import Description from './../../../description-vue-components/src/WhiteDescription/Component.vue';
+    import Description from 'description-vue-components/WhiteDescription/Component.vue';
 
     export default {
         mixins: [

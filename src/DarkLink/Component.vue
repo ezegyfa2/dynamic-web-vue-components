@@ -1,5 +1,5 @@
 <script>
-    import Link from './../../../helper-vue-components/src/Link/Component.vue'
+    import Link from 'helper-vue-components/Link/Component.vue'
 
     export default {
         mixins: [

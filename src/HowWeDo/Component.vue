@@ -1,5 +1,5 @@
 <script>
-    import Roadmap from '../../../helper-vue-components/src/Roadmap/Component.vue'
+    import Roadmap from 'helper-vue-components/Roadmap/Component.vue'
 
     export default {
         mixins: [

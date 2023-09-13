@@ -1,5 +1,5 @@
 <script>
-    import Header from './../../../helper-vue-components/src/Headers/ImageBackgroundHeader/Component.vue'
+    import Header from 'helper-vue-components/Headers/ImageBackgroundHeader/Component.vue'
 
     export default {
         mixins: [
