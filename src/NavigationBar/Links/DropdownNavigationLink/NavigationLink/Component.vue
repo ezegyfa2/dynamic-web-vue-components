@@ -1,6 +1,6 @@
 <script>
-    import NavigationLink from '../../../../../../helper-vue-components/src/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue'
-    import ClassAdder from '../../../../../../helper-vue-components/src/ClassAdder.vue'
+    import NavigationLink from 'helper-vue-components/NavigationBar/NavigationLinks/DropdownNavigationLink/NavigationLink/Component.vue'
+    import ClassAdder from 'helper-vue-components/ClassAdder.vue'
 
     export default {
         mixins: [

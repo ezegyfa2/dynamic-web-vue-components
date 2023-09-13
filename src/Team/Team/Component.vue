@@ -1,5 +1,5 @@
 <script>
-    import Team from '../../../../helper-vue-components/src/Team/Team/Component.vue'
+    import Team from 'helper-vue-components/Team/Team/Component.vue'
 
     export default {
         mixins: [

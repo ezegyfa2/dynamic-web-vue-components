@@ -1,5 +1,5 @@
 <script>
-    import EmailInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Email/Component.vue'
+    import EmailInput from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Email/Component.vue'
 
     export default {
         mixins: [

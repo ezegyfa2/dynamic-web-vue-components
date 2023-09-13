@@ -1,5 +1,5 @@
 <script>
-    import ListDropdown from '../../../../../../../helper-vue-components/src/NavigationBar/NavigationLinks/DropdownNavigationLink/Dropdowns/ListDropdown/Component'
+    import ListDropdown from 'helper-vue-components/NavigationBar/NavigationLinks/DropdownNavigationLink/Dropdowns/ListDropdown/Component'
 
     export default {
         mixins: [

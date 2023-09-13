@@ -1,5 +1,5 @@
 <script>
-    import TwoTitleTextContent from './../../../../text-contents-vue-components/src/TwoTitleTextContent/Component.vue'
+    import TwoTitleTextContent from 'text-contents-vue-components/TwoTitleTextContent/Component.vue'
 
     export default {
         mixins: [

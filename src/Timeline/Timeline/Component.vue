@@ -1,5 +1,5 @@
 <script>
-    import Timeline from '../../../../helper-vue-components/src/Timeline/Timeline/Component.vue'
+    import Timeline from 'helper-vue-components/Timeline/Timeline/Component.vue'
 
     export default {
         mixins: [

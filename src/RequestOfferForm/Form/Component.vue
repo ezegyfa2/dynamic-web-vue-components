@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    import MultiPageForm from '../../../../helper-vue-components/src/Form/MultiPageForm/Component.vue'
+    import MultiPageForm from 'helper-vue-components/Form/MultiPageForm/Component.vue'
 
     export default {
         mixins: [

@@ -1,5 +1,5 @@
 <script>
-    import TextContentWithIcon from '../../../../text-contents-vue-components/src/TextContentWithIcon/Component.vue'
+    import TextContentWithIcon from 'text-contents-vue-components/TextContentWithIcon/Component.vue'
 
     export default {
         mixins: [

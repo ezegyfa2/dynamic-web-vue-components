@@ -1,5 +1,5 @@
 <script>
-    import NavigationBar from '../../../../helper-vue-components/src/NavigationBar/CollapsableNavigationBar/Component.vue'
+    import NavigationBar from 'helper-vue-components/NavigationBar/CollapsableNavigationBar/Component.vue'
 
     export default {
         mixins: [

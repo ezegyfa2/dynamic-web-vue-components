@@ -1,5 +1,5 @@
 <script>
-    import SessionMessageBox from './../../../../helper-vue-components/src/SessionMessages/MessageBox/Component.vue'
+    import SessionMessageBox from 'helper-vue-components/SessionMessages/MessageBox/Component.vue'
 
     export default {
         mixins: [

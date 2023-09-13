@@ -1,5 +1,5 @@
 <script>
-    import Member from '../../../../helper-vue-components/src/Team/Member/Component.vue'
+    import Member from 'helper-vue-components/Team/Member/Component.vue'
 
     export default {
         mixins: [

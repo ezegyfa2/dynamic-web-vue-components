@@ -1,5 +1,5 @@
 <script>
-    import LinkItem from '../../../../../../../helper-vue-components/src/NavigationBar/NavigationLinks/DropdownNavigationLink/Dropdowns/Items/LinkItem/Component'
+    import LinkItem from 'helper-vue-components/NavigationBar/NavigationLinks/DropdownNavigationLink/Dropdowns/Items/LinkItem/Component'
 
     export default {
         mixins: [

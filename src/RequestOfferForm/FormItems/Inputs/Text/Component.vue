@@ -1,5 +1,5 @@
 <script>
-    import TextInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Text/Component.vue'
+    import TextInput from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Text/Component.vue'
 
     export default {
         mixins: [

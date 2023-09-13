@@ -1,4 +1,4 @@
-@import "../../globals";
+@import "dynamic-web-vue-components/globals";
 
 .text-center {
     padding: 3rem 0;
@@ -24,14 +24,14 @@
 
 .btn, .btn:disabled {
     color: #fff;
-    background-color: $baseColor;
-    border-color: $baseColor;
+    background-color: $baseColor !important;
+    border-color: $baseColor !important;
 }
 
 .btn:hover {
     color: $primaryColor;
-    background-color: $baseColor2;
-    border-color: $baseColor2;
+    background-color: $baseColor2 !important;
+    border-color: $baseColor2 !important;
 }
 
 .btn-l {

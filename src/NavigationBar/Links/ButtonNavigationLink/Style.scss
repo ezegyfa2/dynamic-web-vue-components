@@ -1,4 +1,4 @@
-@import "../../../globals.scss";
+@import "dynamic-web-vue-components/globals.scss";
 
 .nav-link, .badge {
     font-family: $secondaryFontFamily;
@@ -14,14 +14,14 @@
 
 .btn, .btn:disabled {
     color: $secondaryColor;
-    background-color: $baseColor;
-    border-color: $baseColor;
+    background-color: $baseColor !important;
+    border-color: $baseColor !important;
 }
 
 .btn:hover {
     color: $primaryColor;
-    background-color: $baseColor2;
-    border-color: $baseColor2;
+    background-color: $primaryColor !important;
+    border-color: $primaryColor !important;
 }
 
 .btn-l {
@@ -38,12 +38,12 @@
         color: $primaryColor;
     }
     .btn, .btn:disabled {
-        background-color: $primaryColor;
-        border-color: $primaryColor;
+        background-color: $primaryColor !important;
+        border-color: $primaryColor !important;
     }
     .btn:hover {
         color: $primaryColor;
-        background-color: $baseColor2;
-        border-color: $baseColor2;
+        background-color: $baseColor2 !important;
+        border-color: $baseColor2 !important;
     }
 }

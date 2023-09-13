@@ -1,5 +1,5 @@
 <script>
-    import TextContentWithMiddleLine from '../../../../text-contents-vue-components/src/TextContentWithMiddleLine/Component'
+    import TextContentWithMiddleLine from 'text-contents-vue-components/TextContentWithMiddleLine/Component'
 
     export default {
         mixins: [

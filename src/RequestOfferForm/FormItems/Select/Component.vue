@@ -1,5 +1,5 @@
 <script>
-    import Select from './../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Select/Component.vue'
+    import Select from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Select/Component.vue'
 
     export default {
         mixins: [

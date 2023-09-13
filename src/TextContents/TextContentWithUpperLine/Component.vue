@@ -1,5 +1,5 @@
 <script>
-    import TextContentWithUpperLine from '../../../../text-contents-vue-components/src/TextContentWithUpperLine/Component.vue'
+    import TextContentWithUpperLine from 'text-contents-vue-components/TextContentWithUpperLine/Component.vue'
 
     export default {
         mixins: [

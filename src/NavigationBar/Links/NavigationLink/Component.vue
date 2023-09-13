@@ -1,5 +1,5 @@
 <script>
-    import NavigationLink from '../../../../../helper-vue-components/src/NavigationBar/NavigationLinks/NavigationLink/Component.vue'
+    import NavigationLink from 'helper-vue-components/NavigationBar/NavigationLinks/NavigationLink/Component.vue'
 
     export default {
         mixins: [

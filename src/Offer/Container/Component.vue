@@ -1,5 +1,5 @@
 <script>
-    import Col4Container from '../../../../helper-vue-components/src/Containers/Col4Container/Component'
+    import Col4Container from 'helper-vue-components/Containers/Col4Container/Component'
 
     export default {
         mixins: [

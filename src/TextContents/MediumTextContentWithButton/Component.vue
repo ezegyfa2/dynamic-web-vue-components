@@ -4,7 +4,7 @@
 
 <script>
     import MediumTextContent from '../MediumTextContent/Component.vue'
-    import ClassAdder from '../../../../helper-vue-components/src/ClassAdder.vue'
+    import ClassAdder from 'helper-vue-components/ClassAdder.vue'
 
     export default {
         mixins: [

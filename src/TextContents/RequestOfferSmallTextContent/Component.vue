@@ -1,5 +1,5 @@
 <script>
-    import SmallTextContent from '../../../../text-contents-vue-components/src/SmallTextContent/Component.vue'
+    import SmallTextContent from 'text-contents-vue-components/SmallTextContent/Component.vue'
 
     export default {
         mixins: [

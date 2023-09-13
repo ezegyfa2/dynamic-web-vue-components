@@ -1,5 +1,5 @@
 <script>
-    import TextArea from './../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/TextArea/Component.vue'
+    import TextArea from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/TextArea/Component.vue'
 
     export default {
         mixins: [

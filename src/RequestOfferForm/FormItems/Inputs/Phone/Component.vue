@@ -1,5 +1,5 @@
 <script>
-    import PhoneInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Phone/Component.vue'
+    import PhoneInput from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Phone/Component.vue'
 
     export default {
         mixins: [

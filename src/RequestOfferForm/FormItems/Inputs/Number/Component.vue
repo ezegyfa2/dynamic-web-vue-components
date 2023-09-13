@@ -1,5 +1,5 @@
 <script>
-    import NumberInput from './../../../../../../helper-vue-components/src/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Number/Component.vue'
+    import NumberInput from 'helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Number/Component.vue'
 
     export default {
         mixins: [
