@@ -5,7 +5,7 @@ section {
     background-color: transparent;
 }
 
-h3 {
+.title {
     margin: 1.5rem 0 1.5rem .5rem;
     text-transform: uppercase;
 }
@@ -18,19 +18,22 @@ h3 {
 }
 
 .form-check-input[type=radio] {
+    position: relative;
+    appearance: none;
+    font: inherit;
+    border: 0.2em solid $primaryColor;
+    border-radius: 50%;
+
     padding: 0.7rem;
-    background-color: $baseColor;
-    border-color: $baseColor;
     color: $secondaryColor;
 }
 
 .form-check-input:checked[type=radio] {
-    background-color: $primaryColor;
-    border-color: $primaryColor;
+    background-color: $baseColor;
 }
 
 
 
 .extra-margin-input {
-    margin: 0 32px 0 5px;
+    margin: 0 15px 0 5px;
 }
