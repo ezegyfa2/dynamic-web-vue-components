@@ -1,0 +1,27 @@
+@import "dynamic-web-vue-components/GlobalComponents/globals.scss";
+
+@media (max-width: 992px) {
+    .description-text {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .description-text {
+        padding: 0;
+    }
+}
+
+$border: 0.5rem solid $baseColor;
+$borderWidth: 2rem;
+@media (min-width: 992px) {
+    //Dynamic css values
+    .left-border {
+        border-left: $border;
+        padding: 0 0 0 $borderWidth;
+    }
+    .right-border {
+        border-right: $border;
+        padding: 0 $borderWidth 0 0;
+    }
+}

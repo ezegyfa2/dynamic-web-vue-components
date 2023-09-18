@@ -1,0 +1,11 @@
+@import "dynamic-web-vue-components/GlobalComponents/globals.scss";
+
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid $primaryColor;
+}

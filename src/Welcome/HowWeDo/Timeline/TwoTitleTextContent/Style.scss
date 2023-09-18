@@ -1,0 +1,24 @@
+@import "dynamic-web-vue-components/GlobalComponents/globals.scss";
+
+.title {
+    @extend .primary-text;
+    color: $baseColor;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    hyphens: auto;
+}
+.sub-title {
+    color: $baseColor;
+    font-family: $primaryFontFamily;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+.content {
+    @extend .secondary-text;
+    color: $secondaryColor;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}

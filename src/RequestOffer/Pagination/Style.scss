@@ -1,0 +1,30 @@
+@import "dynamic-web-vue-components/GlobalComponents/globals.scss";
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.lines {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.normal-line {
+    @extend .line;
+    height: 2px;
+}
+
+.bold-line {
+    @extend .line;
+    height: 5px;
+}
+
+.line {
+    width: 100%;
+    background-color: $baseColor;
+    margin-right: .5rem;
+    border-radius: 2px;
+}

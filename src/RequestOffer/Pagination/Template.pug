@@ -1,0 +1,7 @@
+.line-container
+    .lines
+        div(
+            v-for='i in line_count' 
+            v-bind:key='i' 
+            v-bind:class='getLineClass(i)'
+        )

@@ -1,0 +1,8 @@
+@import 'dynamic-web-vue-components/GlobalComponents/globals.scss';
+@import 'helper-vue-components/IconLinks/ButtonIconLink2/Style.scss';
+
+.btn-dark {
+    color: #fff;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}

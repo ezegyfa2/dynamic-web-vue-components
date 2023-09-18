@@ -1,0 +1,16 @@
+@import 'dynamic-web-vue-components/GlobalComponents/globals.scss';
+
+.link {
+    color: $primaryColor;
+    font-family: $secondaryFontFamily;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .me-3 {
+        margin-right: 0 !important;
+    }
+}
