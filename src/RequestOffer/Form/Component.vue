@@ -34,7 +34,16 @@
             },
             contact_pagination_section: {
                 type: Object
-            }
+            },
+            privacy_policy_label: {
+                type: String
+            },
+            privacy_policy_url: {
+                type: String
+            },
+            privacy_policy_url_label: {
+                type: String
+            },
         },
         data() {
             return {
