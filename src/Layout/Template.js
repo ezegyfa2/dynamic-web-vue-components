@@ -9,7 +9,10 @@ export default {
             }
         },
         "navigation_bar_section": {
-            "template_type_name": "dynamic_web_navigation_bar"
+            "template_type_name": "dynamic_web_navigation_bar",
+            "params": {
+                "languages": "-++languages"
+            }
         },
         "content_sections": "++content_sections",
         "footer_section": {
