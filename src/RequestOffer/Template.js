@@ -21,6 +21,9 @@ export default {
                     webshop_form_item_sections: '++webshop_form_item_sections',
                     sum_price_label: '--requestOffer.sum_price.label',
                     button_title: '--requestOffer.button_title',
+                    privacy_policy_label: '--requestOffer.privacy_policy_label',
+                    privacy_policy_url_label: '--requestOffer.privacy_policy_url_label',
+                    privacy_policy_url: '--routes.privacy-policy',
                     next_button_title: '--requestOffer.next_button_title',
                     back_button_title: '--requestOffer.back_button_title'
                 },

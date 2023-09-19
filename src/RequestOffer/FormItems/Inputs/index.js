@@ -1,6 +1,7 @@
 export default {
     install(Vue) {
 		require('./CheckBox').default.install(Vue)
+		require('./CheckBoxWithLink').default.install(Vue)
 		require('./CheckBoxWithTextContent').default.install(Vue)
 		require('./Email').default.install(Vue)
 		require('./LockedCheckBoxWithTextContent').default.install(Vue)
