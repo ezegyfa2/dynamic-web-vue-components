@@ -8,5 +8,6 @@ export default {
         require('./Offer').default.install(Vue)
         require('./Services').default.install(Vue)
         require('./Team').default.install(Vue)
+        require('dynamic-web-vue-components/Layout')
     }
 }

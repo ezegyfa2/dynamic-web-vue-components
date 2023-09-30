@@ -1,17 +1,10 @@
-<template lang="pug">
-    include Template.pug
-</template>
-
 <script>
+    import ButtonNavigationLink from 'helper-vue-components/NavigationBar/NavigationLinks/ButtonNavigationLink/Component.vue'
+
     export default {
-        props: {
-            content: {
-                type: String
-            },
-            url: {
-                type: String
-            },
-        }
+        mixins: [
+            ButtonNavigationLink,
+        ]
     }
 </script>
 
