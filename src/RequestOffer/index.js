@@ -6,5 +6,6 @@ export default {
         require('./FormItems').default.install(Vue)
         require('./Pagination').default.install(Vue)
         require('./TextContent').default.install(Vue)
+        require('dynamic-web-vue-components/Layout').default.install(Vue)
     }
 }
