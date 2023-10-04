@@ -36,11 +36,11 @@ section.page-section(v-bind:id='id')
                 v-bind:line_count='form_item_sections.length - 1'
                 v-bind:current_index='currentPageNumber'
             )
-            dynamic-web-request-offer-checkbox-input-with-link(
+            //dynamic-web-request-offer-checkbox-input-with-link(
                 v-bind:label='privacy_policy_label'
                 v-bind:url='privacy_policy_url'
                 v-bind:url_label='privacy_policy_url_label'
-            )
+            //)
             .buttons.text-center
                 .form-item(v-if='currentPageNumber > 0')
                     button.btn.btn-primary.btn-xl(type='button' v-on:click='back') {{ back_button_title }}

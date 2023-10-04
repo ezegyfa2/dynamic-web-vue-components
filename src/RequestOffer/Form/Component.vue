@@ -79,17 +79,22 @@
             sendClientData() {
                 if (this.lastSentClientData != this.getClientData()) {
                     this.lastSentClientData = this.getClientData()
-                    $.post({
-                        url: '/request-offer/clients',
-                        data: this.getRequestData(this.form_item_sections[0])
-                    }).done(response => {
-                        if (response.success) {
-                            this.clientId = response.id
+                    fetch('/request-offer/clients', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(this.getRequestData(this.form_item_sections[0]))
+                    }).then(response => {
+                        if (response.status == 200) {
+                            return response.json()
                         }
+                    }).then(response => {
+                        this.clientId = response.id
                     })
-                    sendFacebookAPIEvent('InitiateCheckout', sha256(this.getEmail())).always(response => {
+                    /*sendFacebookAPIEvent('InitiateCheckout', sha256(this.getEmail())).always(response => {
                         console.log(response)
-                    })
+                    })*/
                 }
             },
             getSelectedOrderType() {
@@ -130,10 +135,12 @@
                         currency: 'RON',
                         value: this.getSumPrice()
                     }
+                    this.$refs.form.submit()
+                    /*
+                    Must remove the above line (this.$refs.form.submit()) before uncomment
                     sendFacebookAPIEvent('ViewContent', sha256(this.getEmail()), customData).always(response => {
-                        console.log(response)
                         this.$refs.form.submit()
-                    })
+                    })*/
                 }
             },
             getEmail() {
