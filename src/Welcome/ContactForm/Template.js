@@ -6,11 +6,11 @@ export default {
         "title_section": {
             "type": "dynamic-web-white-medium-text-content",
             "data": {
-                "title": "--contact_and_faq.contact_form.title",
-                "content": "--contact_and_faq.contact_form.subtitle"
+                "title": "--welcome.contact_form.title",
+                "content": "--welcome.contact_form.subtitle"
             }
         },
         "form_item_sections": "-++contact_form.form_item_sections",
-        "button_title": "--contact_and_faq.contact_form.button_title"
+        "button_title": "--welcome.contact_form.button_title"
     }
 }

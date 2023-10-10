@@ -1,7 +1,9 @@
 @import "../formItem.scss";
 
 .form-group {
-    height: 100%;
+    height: calc(100% - 2.5rem);
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 textarea {
