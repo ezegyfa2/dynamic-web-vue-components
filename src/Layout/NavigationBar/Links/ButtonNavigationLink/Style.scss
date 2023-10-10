@@ -9,17 +9,17 @@
     font-family: $secondaryFontFamily;
     font-size: 1rem;
     font-weight: 700;
-    background-color: $baseColor !important;
-    border-color: $baseColor !important;
+    background-color: $primaryColor !important;
+    border-color: $primaryColor !important;
     letter-spacing: 0.0625em;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .btn:hover {
-    color: $secondaryColor;
-    background-color: $primaryColor !important;
-    border-color: $primaryColor !important;
+    color: $primaryColor;
+    background-color: $baseColor2 !important;
+    border-color: $baseColor2 !important;
 }
 
 .navbar-shrink {

@@ -9,14 +9,14 @@
 .nav-link, .badge {
     font-family: $secondaryFontFamily;
     font-size: 0.95rem;
-    color: $primaryColor;
+    color: $secondaryColor;
     letter-spacing: 0.0625em;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .nav-link:hover, .badge:hover {
-    color: $baseColor;
+    color: $primaryColor;
 }
 
 .navbar-shrink {
