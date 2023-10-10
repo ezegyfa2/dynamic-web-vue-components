@@ -38,6 +38,9 @@ export default {
             },
             {
                 "template_type_name": "dynamic_web_latest_works"
+            },
+            {
+                "template_type_name": "dynamic_web_contact_form"
             }
         ]
     }
