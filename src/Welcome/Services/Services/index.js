@@ -1,9 +1,5 @@
 export default {
     install(Vue) {
-        registerVueComponent(
-            'dynamic-web-services',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-services', () => import('./Component.vue'))
     }
 }

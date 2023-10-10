@@ -1,9 +1,5 @@
 export default {
     install(Vue) {
-        registerVueComponent(
-            'dynamic-web-request-offer-pagination',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-request-offer-pagination', () => import('./Component.vue'))
     }
 }

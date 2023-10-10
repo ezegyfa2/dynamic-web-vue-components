@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/NavigationBar/NavigationLinks/ButtonNavigationLink')
 
-        registerVueComponent(
-            'dynamic-web-button-navigation-link',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-button-navigation-link', () => import('./Component.vue'))
     }
 }

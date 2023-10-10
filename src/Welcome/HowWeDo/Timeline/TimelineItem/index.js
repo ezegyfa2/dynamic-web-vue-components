@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/Timeline/TimelineItem').default.install(Vue)
 
-        registerVueComponent(
-            'dynamic-web-timeline-item',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-timeline-item', () => import('./Component.vue'))
     }
 }

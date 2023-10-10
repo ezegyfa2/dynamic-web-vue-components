@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('text-contents-vue-components/MediumTextContent').default.install(Vue)
 
-        registerVueComponent(
-            'dynamic-web-medium-text-content',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-medium-text-content', () => import('./Component.vue'))
     }
 }

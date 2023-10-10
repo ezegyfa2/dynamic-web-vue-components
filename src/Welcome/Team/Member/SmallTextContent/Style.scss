@@ -15,7 +15,7 @@
 .content {
     @extend .secondary-text;
     font-style: italic;
-    color: $textMutedColor;
+    color: $textMutedColor !important;
 }
 
 @media screen and (max-width: 320px) {

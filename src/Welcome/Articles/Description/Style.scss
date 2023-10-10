@@ -1,5 +1,10 @@
 @import "dynamic-web-vue-components/GlobalComponents/globals.scss";
 
+.side-image {
+    aspect-ratio: calc(615/410);
+    width: 100%;
+}
+
 @media (max-width: 992px) {
     .description-text {
         padding: 2rem;

@@ -4,10 +4,6 @@ export default {
         require('dynamic-web-vue-components/GlobalComponents/MediumTextContent').default.install(Vue)
         require('dynamic-web-vue-components/GlobalComponents/MediumTextContentWithButton').default.install(Vue)
         
-        registerVueComponent(
-            'dynamic-web-latest-works',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-latest-works', () => import('./Component.vue'))
     }
 }

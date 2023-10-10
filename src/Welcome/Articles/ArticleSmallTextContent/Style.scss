@@ -1,7 +1,8 @@
 @import "dynamic-web-vue-components/GlobalComponents/globals";
 
-.text-center {
-    padding: 3rem 0;
+.text-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .title {
     @extend .primary-text;

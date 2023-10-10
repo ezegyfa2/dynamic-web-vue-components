@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/Team/Member').default.install(Vue)
         
-        registerVueComponent(
-            'dynamic-web-team-member',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-team-member', () => import('./Component.vue'))
     }
 }

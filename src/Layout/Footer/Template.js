@@ -9,14 +9,16 @@ export default {
                         "type": "dynamic-web-button-icon-link",
                         "data": {
                             "url": "https://www.facebook.com/profile.php?id=100084068406799",
-                            "icon_class": "fab fa-facebook-f"
+                            "icon_class": "fab fa-facebook-f",
+                            "aria_label": "--layout.footer.facebook_aria_label"
                         }
                     },
                     {
                         "type": "dynamic-web-button-icon-link",
                         "data": {
-                            "url": "",
-                            "icon_class": "fa-brands fa-linkedin-in"
+                            "url": "https://www.linkedin.com/company/100687086",
+                            "icon_class": "fa-brands fa-linkedin-in",
+                            "aria_label": "--layout.footer.linkedin_aria_label"
                         }
                     }
                 ]

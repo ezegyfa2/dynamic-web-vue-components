@@ -11,228 +11,49 @@ export default {
         require('./RequestOfferForm/register.js').default.install(Vue);
         require('./Templates/templateRegister.js').default.install();
 
-        registerVueComponent(
-            'dynamic-web-navigation-bar',
-            require('./NavigationBar/NavigationBar/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/NavigationBar/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-navigation-link',
-            require('./NavigationBar/Links/NavigationLink/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/Links/NavigationLink/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-button-navigation-link',
-            require('./NavigationBar/Links/ButtonNavigationLink/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/Links/ButtonNavigationLink/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-dropdown-navigation-link',
-            require('./NavigationBar/Links/DropdownNavigationLink/NavigationLink/Component.vue')
-                .default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/Links/DropdownNavigationLink/NavigationLink/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-list-dropdown',
-            require('./NavigationBar/Links/DropdownNavigationLink/Dropdowns/ListDropdown/Component.vue')
-                .default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/Links/DropdownNavigationLink/Dropdowns/ListDropdown/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-link-dropdown-item',
-            require('./NavigationBar/Links/DropdownNavigationLink/Dropdowns/LinkItem/Component.vue')
-                .default,
-            Vue,
-            'dynamic-web-vue-components/NavigationBar/Links/DropdownNavigationLink/Dropdowns/LinkItem/Component.vue'
-        );
+        Vue.component('dynamic-web-navigation-bar', () => import('./NavigationBar/NavigationBar/Component.vue'));
+        Vue.component('dynamic-web-navigation-link', () => import('./NavigationBar/Links/NavigationLink/Component.vue'));
+        Vue.component('dynamic-web-button-navigation-link', () => import('./NavigationBar/Links/ButtonNavigationLink/Component.vue'));
+        Vue.component('dynamic-web-dropdown-navigation-link', () => import('./NavigationBar/Links/DropdownNavigationLink/NavigationLink/Component.vue'));
+        Vue.component('dynamic-web-list-dropdown', () => import('./NavigationBar/Links/DropdownNavigationLink/Dropdowns/ListDropdown/Component.vue'));
+        Vue.component('dynamic-web-link-dropdown-item', () => import('./NavigationBar/Links/DropdownNavigationLink/Dropdowns/LinkItem/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-header',
-            require('./Header/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/Header/Component.vue'
-        );
+        Vue.component('dynamic-web-header', () => import('./Header/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-offer',
-            require('./Offer/Offer/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/Offer/Offer/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-offer-container',
-            require('./Offer/Container/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/Offer/Container/Component.vue'
-        );
+        Vue.component('dynamic-web-offer', () => import('./Offer/Offer/Component.vue'));
+        Vue.component('dynamic-web-offer-container', () => import('./Offer/Container/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-services',
-            require('./Services/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/Services/Component.vue'
-        );
+        Vue.component('dynamic-web-services', () => import('./Services/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-request-offer-form',
-            require('./RequestOfferForm/Form/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/RequestOfferForm/Form/Component.vue'
-        );
+        Vue.component('dynamic-web-request-offer-form', () => import('./RequestOfferForm/Form/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-thank-you',
-            require('./ThankYou/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/ThankYou/Component.vue'
-        );
+        Vue.component('dynamic-web-thank-you', () => import('./ThankYou/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-success-session-message',
-            require('./SessionMessages/SuccessMessage/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/SessionMessages/SuccessMessage/Component.vue'
-        );
+        Vue.component('dynamic-web-success-session-message', () => import('./SessionMessages/SuccessMessage/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-footer',
-            require('./Footer/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/Footer/Component.vue'
-        );
+        Vue.component('dynamic-web-footer', () => import('./Footer/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-fixed-footer',
-            require('./FixedFooter/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/FixedFooter/Component.vue'
-        );
+        Vue.component('dynamic-web-fixed-footer', () => import('./FixedFooter/Component.vue'));
 
-        registerVueComponent(
-            'dynamic-web-upper-line-text-content',
-            require('./TextContents/TextContentWithUpperLine/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/TextContentWithUpperLine/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-middle-line-text-content',
-            require('./TextContents/TextContentWithMiddleLine/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/TextContentWithMiddleLine/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-medium-text-content',
-            require('./TextContents/MediumTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/MediumTextContent/Component.vue'
-        );
-        registerVueComponent(
-          'dynamic-web-medium-text-content-with-button',
-          require('./TextContents/MediumTextContentWithButton/Component.vue')
-            .default,
-          Vue,
-          'dynamic-web-vue-components/TextContents/MediumTextContentWithButton/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-team-medium-text-content',
-            require('./TextContents/TeamMediumTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/TeamMediumTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-white-medium-text-content',
-            require('./TextContents/WhiteMediumTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/WhiteMediumTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-text-content-with-icon',
-            require('./TextContents/TextContentWithIcon/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/TextContentWithIcon/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-small-text-content',
-            require('./TextContents/SmallTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/SmallTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-request-offer-small-text-content',
-            require('./TextContents/RequestOfferSmallTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/RequestOfferSmallTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-articles-small-text-content',
-            require('./TextContents/ArticlesSmallTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/TextContents/ArticlesSmallTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-dark-link',
-            require('./DarkLink/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-componentsDarkLink/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-button-icon-link',
-            require('./ButtonIconLink/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/ButtonIconLink/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-description-section',
-            require('./Description/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/Description/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-team',
-            require('./Team/Team/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/Team/Team/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-team-member',
-            require('./Team/Member/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/Team/Member/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-how-we-do',
-            require('./HowWeDo/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/HowWeDo/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-timeline',
-            require('./Timeline/Timeline/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/Timeline/Timeline/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-timeline-item',
-            require('./Timeline/TimelineItem/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/Timeline/TimelineItem/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-two-title-text-content',
-            require('./TextContents/TwoTitleTextContent/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/TextContents/TwoTitleTextContent/Component.vue'
-        );
-        registerVueComponent(
-            'dynamic-web-latest-works',
-            require('./LatestWorks/Component.vue').default,
-            Vue,
-            'dynamic-web-vue-components/src/LatestWorks/Component.vue'
-        );
+        Vue.component('dynamic-web-upper-line-text-content', () => import('./TextContents/TextContentWithUpperLine/Component.vue'));
+        Vue.component('dynamic-web-middle-line-text-content', () => import('./TextContents/TextContentWithMiddleLine/Component.vue'));
+        Vue.component('dynamic-web-medium-text-content', () => import('./TextContents/MediumTextContent/Component.vue'));
+        Vue.component('dynamic-web-medium-text-content-with-button', () => import('./TextContents/MediumTextContentWithButton/Component.vue'));
+        Vue.component('dynamic-web-team-medium-text-content', () => import('./TextContents/TeamMediumTextContent/Component.vue'));
+        Vue.component('dynamic-web-white-medium-text-content', () => import('./TextContents/WhiteMediumTextContent/Component.vue'));
+        Vue.component('dynamic-web-text-content-with-icon', () => import('./TextContents/TextContentWithIcon/Component.vue'));
+        Vue.component('dynamic-web-small-text-content', () => import('./TextContents/SmallTextContent/Component.vue'));
+        Vue.component('dynamic-web-request-offer-small-text-content', () => import('./TextContents/RequestOfferSmallTextContent/Component.vue'));
+        Vue.component('dynamic-web-articles-small-text-content', () => import('./TextContents/ArticlesSmallTextContent/Component.vue'));
+        Vue.component('dynamic-web-dark-link', () => import('./DarkLink/Component.vue'));
+        Vue.component('dynamic-web-button-icon-link', () => import('./ButtonIconLink/Component.vue'));
+        Vue.component('dynamic-web-description-section', () => import('./Description/Component.vue'));
+        Vue.component('dynamic-web-team', () => import('./Team/Team/Component.vue'));
+        Vue.component('dynamic-web-team-member', () => import('./Team/Member/Component.vue'));
+        Vue.component('dynamic-web-how-we-do', () => import('./HowWeDo/Component.vue'));
+        Vue.component('dynamic-web-timeline', () => import('./Timeline/Timeline/Component.vue'));
+        Vue.component('dynamic-web-timeline-item', () => import('./Timeline/TimelineItem/Component.vue'));
+        Vue.component('dynamic-web-two-title-text-content', () => import('./TextContents/TwoTitleTextContent/Component.vue'));
+        Vue.component('dynamic-web-latest-works', () => import('./LatestWorks/Component.vue'));
     },
 };

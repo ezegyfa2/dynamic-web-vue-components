@@ -27,14 +27,15 @@ section {
     }
 }
 
-img {
+.work-image {
     width: 100%;
     border-radius: 15px;
     margin-bottom: 15px;
+    aspect-ratio: 355/200;
     transition: transform .2s;
 }
 
-img:hover {
+.work-image:hover {
     transform: scale(1.2);
 }
 

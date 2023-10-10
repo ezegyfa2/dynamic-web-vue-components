@@ -19,7 +19,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/Articles/blonde-woman-floral-dress-cafe.jpg",
+                    "image_url": "images/articles/blonde-woman-floral-dress-cafe.webp",
                     "image_alt": "..."
                 }
             },
@@ -40,7 +40,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/Articles/e-commerce-shop-online-homepage-sale-concept.jpg",
+                    "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.jpg",
                     "image_alt": "..."
                 }
             },
@@ -61,7 +61,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/Articles/hands-holding-credit-card-typing-laptop.jpg",
+                    "image_url": "images/articles/hands-holding-credit-card-typing-laptop.jpg",
                     "image_alt": "..."
                 }
             }

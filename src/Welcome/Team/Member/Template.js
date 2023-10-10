@@ -18,7 +18,8 @@ export default {
                     "array_data": "icons",
                     "data": {
                         "url": "++icons.url",
-                        "icon_class": "++icons.class"
+                        "icon_class": "++icons.class",
+                        "aria_label": "++icons.aria_label"
                     }
                 }
             }
