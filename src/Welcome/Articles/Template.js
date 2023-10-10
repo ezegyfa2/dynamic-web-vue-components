@@ -40,7 +40,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.jpg",
+                    "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.webp",
                     "image_alt": "..."
                 }
             },
@@ -61,7 +61,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/articles/hands-holding-credit-card-typing-laptop.jpg",
+                    "image_url": "images/articles/hands-holding-credit-card-typing-laptop.webp",
                     "image_alt": "..."
                 }
             }

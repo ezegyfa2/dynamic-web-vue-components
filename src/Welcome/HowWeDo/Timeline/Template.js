@@ -5,7 +5,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/vazlat.jpg",
+                    "image_url": "images/roadmap/vazlat.webp",
                     "content_sections": [
                         {
                             "type": "dynamic-web-two-title-text-content",
@@ -20,7 +20,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/tervezes.jpg",
+                    "image_url": "images/roadmap/tervezes.webp",
                     "is_inverted": true,
                     "content_sections": [
                         {
@@ -36,7 +36,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/fejlesztes.jpg",
+                    "image_url": "images/roadmap/fejlesztes.webp",
                     "content_sections": [
                         {
                             "type": "dynamic-web-two-title-text-content",
@@ -51,7 +51,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/teszteles.jpg",
+                    "image_url": "images/roadmap/teszteles.webp",
                     "is_inverted": true,
                     "with_line": false,
                     "content_sections": [

@@ -10,35 +10,35 @@ export default {
         "images": [
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/7554326.jpg"
+                "image_url": "images/latestworks/7554326.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/6207747.jpg"
+                "image_url": "images/latestworks/6207747.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/7534274.jpg"
+                "image_url": "images/latestworks/7534274.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/8285773.jpg"
+                "image_url": "images/latestworks/8285773.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/5471806.jpg"
+                "image_url": "images/latestworks/5471806.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/4264527.jpg"
+                "image_url": "images/latestworks/4264527.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/4141109.jpg"
+                "image_url": "images/latestworks/4141109.webp"
             },
             {
                 "image_alt": "",
-                "image_url": "images/latestworks/3175709.jpg"
+                "image_url": "images/latestworks/3175709.webp"
             }
         ],
         "request_offer_section": {
