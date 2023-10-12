@@ -14,6 +14,7 @@ export default {
                     "name": "Darvas Istvan",
                     "title": "--welcome.team.members.darvas_istvan.name",
                     "image_url": "images/team/darvas_istvan.webp",
+                    "image_alt": "--welcome.team.members.darvas_istvan.image_alt",
                     "icons": [
                         {
                             "url": "https://twitter.com/DarvasIstvan1",
@@ -39,6 +40,7 @@ export default {
                     "name": "Bagota Jozsef",
                     "title": "--welcome.team.members.bagota_jozsef.name",
                     "image_url": "images/team/bagota_jozsef.webp",
+                    "image_alt": "--welcome.team.members.bagota_jozsef.image_alt",
                     "icons": [
                         {
                             "url": "https://twitter.com/JBagota",
@@ -64,6 +66,7 @@ export default {
                     "name": "Benedek Csaba",
                     "title": "--welcome.team.members.benedek_csaba.name",
                     "image_url": "images/team/benedek_csaba.webp",
+                    "image_alt": "--welcome.team.members.benedek_csaba.image_alt",
                     "icons": [
                         {
                             "url": "https://twitter.com/CsabaBenedek27",
@@ -89,6 +92,7 @@ export default {
                     "name": "Kovacs Szilard",
                     "title": "--welcome.team.members.kovacs_szilard.name",
                     "image_url": "images/team/kovacs_szilard.webp",
+                    "image_alt": "--welcome.team.members.kovacs_szilard.image_alt",
                     "icons": [
                         {
                             "url": "https://twitter.com/kSzili03",

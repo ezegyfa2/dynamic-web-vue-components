@@ -9,35 +9,35 @@ export default {
         },
         "images": [
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/7554326.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/6207747.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/7534274.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/8285773.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/5471806.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/4264527.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/4141109.webp"
             },
             {
-                "image_alt": "",
+                "image_alt": "--welcome.our_works.image_alt",
                 "image_url": "images/latestworks/3175709.webp"
             }
         ],

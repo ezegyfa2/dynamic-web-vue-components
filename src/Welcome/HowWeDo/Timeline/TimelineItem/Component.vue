@@ -4,7 +4,7 @@
     export default {
         mixins: [
             TimelineItem,
-        ]
+        ],
     }
 </script>
 

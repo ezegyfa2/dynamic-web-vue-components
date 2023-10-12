@@ -2,7 +2,7 @@ export default {
     "type": "dynamic-web-team-member",
     "data": {
         "image_url": "++image_url",
-        "image_alt": "...",
+        "image_alt": "++image_alt",
         "title_section": {
             "type": "dynamic-web-small-text-content",
             "data": {

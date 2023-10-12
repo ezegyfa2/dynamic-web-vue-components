@@ -73,7 +73,7 @@
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown77"
+                                    "dropdown_link_id": "dropdown69"
                                 }
                             }
                         }
@@ -162,7 +162,7 @@
                                     }
                                 },
                                 "image_url": "images/articles/blonde-woman-floral-dress-cafe.webp",
-                                "image_alt": "..."
+                                "image_alt": "--welcome.article1.image_alt"
                             }
                         },
                         {
@@ -183,7 +183,7 @@
                                     }
                                 },
                                 "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.webp",
-                                "image_alt": "..."
+                                "image_alt": "--welcome.article2.image_alt"
                             }
                         },
                         {
@@ -204,7 +204,7 @@
                                     }
                                 },
                                 "image_url": "images/articles/hands-holding-credit-card-typing-laptop.webp",
-                                "image_alt": "..."
+                                "image_alt": "--welcome.article3.image_alt"
                             }
                         }
                     ]
@@ -228,6 +228,7 @@
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
                                         "image_url": "images/roadmap/vazlat.webp",
+                                        "image_alt": "--welcome.workflow.sketch.image_alt",
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
@@ -243,6 +244,7 @@
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
                                         "image_url": "images/roadmap/tervezes.webp",
+                                        "image_alt": "--welcome.workflow.design.image_alt",
                                         "is_inverted": true,
                                         "content_sections": [
                                             {
@@ -259,6 +261,7 @@
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
                                         "image_url": "images/roadmap/fejlesztes.webp",
+                                        "image_alt": "--welcome.workflow.develop.image_alt",
                                         "content_sections": [
                                             {
                                                 "type": "dynamic-web-two-title-text-content",
@@ -274,6 +277,7 @@
                                     "type": "dynamic-web-timeline-item",
                                     "data": {
                                         "image_url": "images/roadmap/teszteles.webp",
+                                        "image_alt": "--welcome.workflow.test.image_alt",
                                         "is_inverted": true,
                                         "with_line": false,
                                         "content_sections": [
@@ -315,7 +319,7 @@
                             "type": "dynamic-web-team-member",
                             "data": {
                                 "image_url": "images/team/darvas_istvan.webp",
-                                "image_alt": "...",
+                                "image_alt": "--welcome.team.members.darvas_istvan.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
@@ -360,7 +364,7 @@
                             "type": "dynamic-web-team-member",
                             "data": {
                                 "image_url": "images/team/bagota_jozsef.webp",
-                                "image_alt": "...",
+                                "image_alt": "--welcome.team.members.bagota_jozsef.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
@@ -405,7 +409,7 @@
                             "type": "dynamic-web-team-member",
                             "data": {
                                 "image_url": "images/team/benedek_csaba.webp",
-                                "image_alt": "...",
+                                "image_alt": "--welcome.team.members.benedek_csaba.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
@@ -450,7 +454,7 @@
                             "type": "dynamic-web-team-member",
                             "data": {
                                 "image_url": "images/team/kovacs_szilard.webp",
-                                "image_alt": "...",
+                                "image_alt": "--welcome.team.members.kovacs_szilard.image_alt",
                                 "title_section": {
                                     "type": "dynamic-web-small-text-content",
                                     "data": {
@@ -505,35 +509,35 @@
                     },
                     "images": [
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/7554326.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/6207747.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/7534274.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/8285773.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/5471806.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/4264527.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/4141109.webp"
                         },
                         {
-                            "image_alt": "",
+                            "image_alt": "--welcome.our_works.image_alt",
                             "image_url": "images/latestworks/3175709.webp"
                         }
                     ],
