@@ -74,7 +74,7 @@ export default {
                 "data": {
                     "title": "--welcome.request_offer.title",
                     "content": "--welcome.request_offer.content",
-                    "url": "/request-offer",
+                    "url": "#contact_us",
                     "button_content": "--welcome.request_offer.button_content"
                 }
             }
