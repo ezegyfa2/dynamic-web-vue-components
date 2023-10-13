@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/Inputs/Text').default.install(Vue)
 
-        registerVueComponent(
-            'dynamic-web-contact-text-input',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-contact-text-input', () => import('./Component.vue'))
     }
 }

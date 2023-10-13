@@ -4,10 +4,7 @@
     export default {
         mixins: [
             Col4Container
-        ],
-        mounted() {
-            alignHeightsBySelector('.offer-container-layout .container-layout')
-        }
+        ]
     }
 </script>
 

@@ -28,6 +28,48 @@ export default {
                 }
             },
             {
+                "template_type_name": "dynamic_web_offers",
+                "params": {
+                    "offers": [
+                        {
+                            "title": "--offers.basic.title",
+                            "content": "--offers.basic.content",
+                            "parts": [
+                                "--offers.basic.parts.responsive_layouts",
+                                "--offers.basic.parts.modern_design",
+                                "--offers.basic.parts.user_friendly",
+                                "--offers.basic.parts.admin_panel",
+                                "--offers.basic.parts.product_list",
+                                "--offers.basic.parts.seo_optimizing"
+                            ]
+                        },
+                        {
+                            "title": "--offers.normal.title",
+                            "content": "--offers.normal.content",
+                            "parts": [
+                                "--offers.normal.parts.basic_parts",
+                                "--offers.normal.parts.many_product",
+                                "--offers.normal.parts.product_categories",
+                                "--offers.normal.parts.product_filters",
+                                "--offers.normal.parts.users"
+                            ]
+                        },
+                        {
+                            "title": "--offers.premium.title",
+                            "content": "--offers.premium.content",
+                            "parts": [
+                                "--offers.premium.parts.normal_parts",
+                                "--offers.premium.parts.marketing",
+                                "--offers.premium.parts.optmizing",
+                                "--offers.premium.parts.custom_design",
+                                "--offers.premium.parts.reports"
+                            ]
+                        }
+                    ],
+                    "button_title": "--offers.button_title"
+                }
+            },
+            {
                 "template_type_name": "dynamic_web_articles"
             },
             {
@@ -41,7 +83,7 @@ export default {
             },
             {
                 "template_type_name": "dynamic_web_contact_form"
-            }
+            },
         ]
     }
 }

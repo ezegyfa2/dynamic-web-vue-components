@@ -2,10 +2,6 @@ export default {
     install(Vue) {
         require('helper-vue-components/Form/BootstrapFormItems/FormItemsWithoutLabel/TextArea').default.install(Vue)
 
-        registerVueComponent(
-            'dynamic-web-contact-textarea',
-            require('./Component.vue').default,
-            Vue
-        )
+        Vue.component('dynamic-web-contact-textarea', () => import('./Component.vue'))
     }
 }

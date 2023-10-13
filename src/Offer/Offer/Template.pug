@@ -1,0 +1,7 @@
+.offer-container-layout
+	dynamic-component(
+		v-bind:component_infos='title_section'
+	)
+	ul.list-group.list-group-flush.offer-parts
+		li.list-group-item.offer-part(v-for='offer_part in offer_parts') {{ offer_part }}
+	a.button(v-bind:href='button_link') {{ button_title }}
