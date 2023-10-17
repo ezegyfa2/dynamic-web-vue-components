@@ -32,41 +32,41 @@ export default {
                 "params": {
                     "offers": [
                         {
-                            "title": "--offers.basic.title",
-                            "content": "--offers.basic.content",
+                            "title": "--welcome.offers.basic.title",
+                            "content": "--welcome.offers.basic.content",
                             "parts": [
-                                "--offers.basic.parts.responsive_layouts",
-                                "--offers.basic.parts.modern_design",
-                                "--offers.basic.parts.user_friendly",
-                                "--offers.basic.parts.admin_panel",
-                                "--offers.basic.parts.product_list",
-                                "--offers.basic.parts.seo_optimizing"
+                                "--welcome.offers.basic.parts.responsive_layouts",
+                                "--welcome.offers.basic.parts.modern_design",
+                                "--welcome.offers.basic.parts.user_friendly",
+                                "--welcome.offers.basic.parts.admin_panel",
+                                "--welcome.offers.basic.parts.product_list",
+                                "--welcome.offers.basic.parts.seo_optimizing"
                             ]
                         },
                         {
-                            "title": "--offers.normal.title",
-                            "content": "--offers.normal.content",
+                            "title": "--welcome.offers.normal.title",
+                            "content": "--welcome.offers.normal.content",
                             "parts": [
-                                "--offers.normal.parts.basic_parts",
-                                "--offers.normal.parts.many_product",
-                                "--offers.normal.parts.product_categories",
-                                "--offers.normal.parts.product_filters",
-                                "--offers.normal.parts.users"
+                                "--welcome.offers.normal.parts.basic_parts",
+                                "--welcome.offers.normal.parts.many_product",
+                                "--welcome.offers.normal.parts.product_categories",
+                                "--welcome.offers.normal.parts.product_filters",
+                                "--welcome.offers.normal.parts.users"
                             ]
                         },
                         {
-                            "title": "--offers.premium.title",
-                            "content": "--offers.premium.content",
+                            "title": "--welcome.offers.premium.title",
+                            "content": "--welcome.offers.premium.content",
                             "parts": [
-                                "--offers.premium.parts.normal_parts",
-                                "--offers.premium.parts.marketing",
-                                "--offers.premium.parts.optmizing",
-                                "--offers.premium.parts.custom_design",
-                                "--offers.premium.parts.reports"
+                                "--welcome.offers.premium.parts.normal_parts",
+                                "--welcome.offers.premium.parts.marketing",
+                                "--welcome.offers.premium.parts.optmizing",
+                                "--welcome.offers.premium.parts.custom_design",
+                                "--welcome.offers.premium.parts.reports"
                             ]
                         }
                     ],
-                    "button_title": "--offers.button_title"
+                    "button_title": "--welcome.offers.button_title"
                 }
             },
             {

@@ -39,14 +39,14 @@
                     {
                         "type": "dynamic-web-button-navigation-link",
                         "data": {
-                            "url": "-++request_offer_url",
+                            "url": "/#contact_us",
                             "content": "--layout.navbar.request_offer"
                         }
                     },
                     {
                         "type": "dynamic-web-dropdown-navigation-link",
                         "data": {
-                            "badge_content": "EN",
+                            "badge_content": "HU",
                             "dropdown_section": {
                                 "type": "dynamic-web-list-dropdown",
                                 "data": {
@@ -54,26 +54,19 @@
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://localhost:8888/en",
+                                                "url": "http://dynamic-web.test/en",
                                                 "content": "EN"
                                             }
                                         },
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://localhost:8888/hu",
+                                                "url": "http://dynamic-web.test/hu",
                                                 "content": "HU"
-                                            }
-                                        },
-                                        {
-                                            "type": "dynamic-web-link-dropdown-item",
-                                            "data": {
-                                                "url": "http://localhost:8888/ro",
-                                                "content": "RO"
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown69"
+                                    "dropdown_link_id": "dropdown66"
                                 }
                             }
                         }
@@ -141,7 +134,79 @@
                 }
             },
             {
-                "type": "description-section-container",
+                "type": "dynamic-web-offer-container",
+                "data": {
+                    "id": "offers",
+                    "column_sections": [
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.basic.title",
+                                        "content": "--welcome.offers.basic.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.basic.parts.responsive_layouts",
+                                    "--welcome.offers.basic.parts.modern_design",
+                                    "--welcome.offers.basic.parts.user_friendly",
+                                    "--welcome.offers.basic.parts.admin_panel",
+                                    "--welcome.offers.basic.parts.product_list",
+                                    "--welcome.offers.basic.parts.seo_optimizing"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.normal.title",
+                                        "content": "--welcome.offers.normal.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.normal.parts.basic_parts",
+                                    "--welcome.offers.normal.parts.many_product",
+                                    "--welcome.offers.normal.parts.product_categories",
+                                    "--welcome.offers.normal.parts.product_filters",
+                                    "--welcome.offers.normal.parts.users"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        },
+                        {
+                            "type": "dynamic-web-offer",
+                            "data": {
+                                "title_section": {
+                                    "type": "dynamic-web-text-content-with-middle-line",
+                                    "data": {
+                                        "title": "--welcome.offers.premium.title",
+                                        "content": "--welcome.offers.premium.content"
+                                    }
+                                },
+                                "offer_parts": [
+                                    "--welcome.offers.premium.parts.normal_parts",
+                                    "--welcome.offers.premium.parts.marketing",
+                                    "--welcome.offers.premium.parts.optmizing",
+                                    "--welcome.offers.premium.parts.custom_design",
+                                    "--welcome.offers.premium.parts.reports"
+                                ],
+                                "button_title": "--welcome.offers.button_title",
+                                "button_link": "#contact_us"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "fluid-description-section-container",
                 "data": {
                     "description_sections": [
                         {
@@ -153,7 +218,7 @@
                                         "title": "--welcome.article1.title",
                                         "content": "--welcome.article1.content",
                                         "button_content": "--welcome.article_button_content",
-                                        "url": "/request-offer",
+                                        "url": "#contact_us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -161,7 +226,7 @@
                                         }
                                     }
                                 },
-                                "image_url": "images/articles/blonde-woman-floral-dress-cafe.webp",
+                                "image_url": "articles/easyToModify",
                                 "image_alt": "--welcome.article1.image_alt"
                             }
                         },
@@ -174,7 +239,7 @@
                                         "title": "--welcome.article2.title",
                                         "content": "--welcome.article2.content",
                                         "button_content": "--welcome.article_button_content",
-                                        "url": "/request-offer",
+                                        "url": "#contact_us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -195,7 +260,7 @@
                                         "title": "--welcome.article3.title",
                                         "content": "--welcome.article3.content",
                                         "button_content": "--welcome.article_button_content",
-                                        "url": "/request-offer",
+                                        "url": "#contact_us",
                                         "added_classes": {
                                             ".content": [
                                                 "mb-0"
@@ -296,7 +361,7 @@
                                     "data": {
                                         "title": "--welcome.request_offer.title",
                                         "content": "--welcome.request_offer.content",
-                                        "url": "/request-offer",
+                                        "url": "#contact_us",
                                         "button_content": "--welcome.request_offer.button_content"
                                     }
                                 }
@@ -546,7 +611,7 @@
                         "data": {
                             "title": "--welcome.request_offer.title",
                             "content": "--welcome.request_offer.content",
-                            "url": "/request-offer",
+                            "url": "#contact_us",
                             "button_content": "--welcome.request_offer.button_content"
                         }
                     }
@@ -577,7 +642,7 @@
                                 "type": "text",
                                 "maxlength": 255,
                                 "minlength": 0,
-                                "placeholder": "Name"
+                                "placeholder": "Név"
                             }
                         },
                         {
@@ -607,7 +672,7 @@
                                 "type": "tel",
                                 "maxlength": 15,
                                 "minlength": 0,
-                                "placeholder": "Phone"
+                                "placeholder": "Telefon"
                             }
                         },
                         {
@@ -618,7 +683,7 @@
                                 "default": null,
                                 "required": true,
                                 "validation_errors": [],
-                                "placeholder": "Message"
+                                "placeholder": "Üzenet"
                             }
                         }
                     ],
