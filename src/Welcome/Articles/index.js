@@ -4,6 +4,6 @@ export default {
         require('dynamic-web-vue-components/Layout').default.install(Vue)
         require('./ArticleSmallTextContent').default.install(Vue)
         require('./Description').default.install(Vue)
-        require('description-vue-components/Container').default.install(Vue)
+        require('description-vue-components/Containers/FluidContainer').default.install(Vue)
     }
 }

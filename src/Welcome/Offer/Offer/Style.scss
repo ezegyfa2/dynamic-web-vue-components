@@ -5,9 +5,8 @@
     margin: 15px;
     background-color: $secondaryColor;
     text-align: center;
-    position: relative;
-    display: table-cell;
     padding-bottom: 8rem;
+    height: calc(100% - 3rem);
 }
 .container-layout {
     padding: 0 1rem;

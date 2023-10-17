@@ -1,5 +1,5 @@
 export default {
-    "type": "description-section-container",
+    "type": "fluid-description-section-container",
     "data": {
         "description_sections": [
             {
@@ -19,7 +19,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/articles/blonde-woman-floral-dress-cafe.webp",
+                    "image_url": "articles/easyToModify",
                     "image_alt": "--welcome.article1.image_alt"
                 }
             },
