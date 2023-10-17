@@ -54,19 +54,19 @@
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://dynamic-web.test/en",
+                                                "url": "http://localhost:8888/en",
                                                 "content": "EN"
                                             }
                                         },
                                         {
                                             "type": "dynamic-web-link-dropdown-item",
                                             "data": {
-                                                "url": "http://dynamic-web.test/hu",
+                                                "url": "http://localhost:8888/hu",
                                                 "content": "HU"
                                             }
                                         }
                                     ],
-                                    "dropdown_link_id": "dropdown66"
+                                    "dropdown_link_id": "dropdown70"
                                 }
                             }
                         }
@@ -144,17 +144,18 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.basic.title",
-                                        "content": "--welcome.offers.basic.content"
+                                        "title": "--welcome.offers.presentation.title",
+                                        "content": "--welcome.offers.presentation.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.basic.parts.responsive_layouts",
-                                    "--welcome.offers.basic.parts.modern_design",
-                                    "--welcome.offers.basic.parts.user_friendly",
-                                    "--welcome.offers.basic.parts.admin_panel",
-                                    "--welcome.offers.basic.parts.product_list",
-                                    "--welcome.offers.basic.parts.seo_optimizing"
+                                    "--welcome.offers.presentation.parts.responsive_layouts",
+                                    "--welcome.offers.presentation.parts.modern_design",
+                                    "--welcome.offers.presentation.parts.seo_optimization",
+                                    "--welcome.offers.presentation.parts.admin_panel",
+                                    "--welcome.offers.presentation.parts.fast_loading",
+                                    "--welcome.offers.presentation.parts.ssl",
+                                    "--welcome.offers.presentation.parts.backup"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
@@ -166,16 +167,17 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.normal.title",
-                                        "content": "--welcome.offers.normal.content"
+                                        "title": "--welcome.offers.webshop.title",
+                                        "content": "--welcome.offers.webshop.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.normal.parts.basic_parts",
-                                    "--welcome.offers.normal.parts.many_product",
-                                    "--welcome.offers.normal.parts.product_categories",
-                                    "--welcome.offers.normal.parts.product_filters",
-                                    "--welcome.offers.normal.parts.users"
+                                    "--welcome.offers.webshop.parts.basic_parts",
+                                    "--welcome.offers.webshop.parts.card_using",
+                                    "--welcome.offers.webshop.parts.automatic_invoicing",
+                                    "--welcome.offers.webshop.parts.admin_page",
+                                    "--welcome.offers.webshop.parts.customer_reviews",
+                                    "--welcome.offers.webshop.parts.weekly_reviews"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
@@ -187,16 +189,16 @@
                                 "title_section": {
                                     "type": "dynamic-web-text-content-with-middle-line",
                                     "data": {
-                                        "title": "--welcome.offers.premium.title",
-                                        "content": "--welcome.offers.premium.content"
+                                        "title": "--welcome.offers.online_marketplace.title",
+                                        "content": "--welcome.offers.online_marketplace.content"
                                     }
                                 },
                                 "offer_parts": [
-                                    "--welcome.offers.premium.parts.normal_parts",
-                                    "--welcome.offers.premium.parts.marketing",
-                                    "--welcome.offers.premium.parts.optmizing",
-                                    "--welcome.offers.premium.parts.custom_design",
-                                    "--welcome.offers.premium.parts.reports"
+                                    "--welcome.offers.online_marketplace.parts.normal_parts",
+                                    "--welcome.offers.online_marketplace.parts.user_products",
+                                    "--welcome.offers.online_marketplace.parts.chat",
+                                    "--welcome.offers.online_marketplace.parts.supplier_profiles",
+                                    "--welcome.offers.online_marketplace.parts.promotions"
                                 ],
                                 "button_title": "--welcome.offers.button_title",
                                 "button_link": "#contact_us"
