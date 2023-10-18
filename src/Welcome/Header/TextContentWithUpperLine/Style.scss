@@ -35,6 +35,14 @@
         font-size: 2.25rem;
     }
 }
+
+@media (max-width: 320px) {
+    .button {
+        font-size: 0.75rem;
+        padding: 10px 16px;
+    }
+}
+
 .title {
     font-weight: 300;
     text-transform: capitalize;
