@@ -1,10 +1,17 @@
-<script>
-    import Col4Container from 'helper-vue-components/Containers/Col4Container/Component'
+<template lang="pug">
+    include Template
+</template>
 
+<script>
     export default {
-        mixins: [
-            Col4Container
-        ]
+        props: {
+            column_sections: {
+                type: Array
+            }
+        },
+        mounted() {
+            
+        }
     }
 </script>
 
