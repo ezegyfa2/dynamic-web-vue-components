@@ -5,7 +5,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/vazlat.webp",
+                    "image_url": "roadmap/development",
                     "image_alt": "--welcome.workflow.sketch.image_alt",
                     "content_sections": [
                         {
@@ -21,7 +21,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/tervezes.webp",
+                    "image_url": "roadmap/development",
                     "image_alt": "--welcome.workflow.design.image_alt",
                     "is_inverted": true,
                     "content_sections": [
@@ -38,7 +38,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/fejlesztes.webp",
+                    "image_url": "roadmap/development",
                     "image_alt": "--welcome.workflow.develop.image_alt",
                     "content_sections": [
                         {
@@ -54,7 +54,7 @@ export default {
             {
                 "type": "dynamic-web-timeline-item",
                 "data": {
-                    "image_url": "images/roadmap/teszteles.webp",
+                    "image_url": "roadmap/development",
                     "image_alt": "--welcome.workflow.test.image_alt",
                     "is_inverted": true,
                     "with_line": false,

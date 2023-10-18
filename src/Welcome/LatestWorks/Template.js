@@ -10,35 +10,38 @@ export default {
         "images": [
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/7554326.webp"
+                "image_url": "latestworks/electrician",
+                "url": "https://bartos-electric.site/"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/6207747.webp"
+                "image_url": "latestworks/fruits",
+                "url": "https://best-fruits.site/"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/7534274.webp"
+                "image_url": "latestworks/ediWheel",
+                "url": "https://edi-wheel.site/"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/8285773.webp"
+                "image_url": "latestworks/travel"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/5471806.webp"
+                "image_url": "latestworks/webshop"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/4264527.webp"
+                "image_url": "latestworks/dentist"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/4141109.webp"
+                "image_url": "latestworks/wildNature"
             },
             {
                 "image_alt": "--welcome.our_works.image_alt",
-                "image_url": "images/latestworks/3175709.webp"
+                "image_url": "latestworks/learningLanguages"
             }
         ],
         "request_offer_section": {

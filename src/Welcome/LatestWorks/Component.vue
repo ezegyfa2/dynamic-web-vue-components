@@ -18,7 +18,20 @@
             request_offer_section: {
                 type: Object
             }
-        }
+        },
+        data() {
+            return {
+                imageWidths: [
+                    227,
+                    282,
+                    332,
+                    323,
+                    203,
+                    203,
+                    203,
+                ]
+            }
+        },
     }
 </script>
 

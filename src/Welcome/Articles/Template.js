@@ -40,7 +40,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/articles/e-commerce-shop-online-homepage-sale-concept.webp",
+                    "image_url": "articles/modernAestheticDesign",
                     "image_alt": "--welcome.article2.image_alt"
                 }
             },
@@ -61,7 +61,7 @@ export default {
                             }
                         }
                     },
-                    "image_url": "images/articles/hands-holding-credit-card-typing-laptop.webp",
+                    "image_url": "articles/hostingMaintenance",
                     "image_alt": "--welcome.article3.image_alt"
                 }
             }
