@@ -6,8 +6,8 @@ export default {
         "title_section": {
             "type": "dynamic-web-small-text-content",
             "data": {
-                "title": "++name",
-                "content": "++title"
+                "title": "++title",
+                "content": "++content"
             }
         },
         "contact_icons_section": {

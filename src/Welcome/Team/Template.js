@@ -11,8 +11,8 @@ export default {
             {
                 "template_type_name": "dynamic_web_team_member",
                 "params": {
-                    "name": "Darvas Istvan",
-                    "title": "--welcome.team.members.darvas_istvan.name",
+                    "title": "--welcome.team.members.darvas_istvan.title",
+                    "content": "--welcome.team.members.darvas_istvan.content",
                     "image_url": "team/darvasi",
                     "image_alt": "--welcome.team.members.darvas_istvan.image_alt",
                     "icons": [
@@ -37,8 +37,8 @@ export default {
             {
                 "template_type_name": "dynamic_web_team_member",
                 "params": {
-                    "name": "Bagota Jozsef",
-                    "title": "--welcome.team.members.bagota_jozsef.name",
+            		"title": "--welcome.team.members.bagota_jozsef.title",
+                    "content": "--welcome.team.members.bagota_jozsef.content",
                     "image_url": "team/bagotaj",
                     "image_alt": "--welcome.team.members.bagota_jozsef.image_alt",
                     "icons": [
@@ -63,8 +63,8 @@ export default {
             {
                 "template_type_name": "dynamic_web_team_member",
                 "params": {
-                    "name": "Benedek Csaba",
-                    "title": "--welcome.team.members.benedek_csaba.name",
+                    "title": "--welcome.team.members.benedek_csaba.title",
+                    "content": "--welcome.team.members.benedek_csaba.content",
                     "image_url": "team/benedekcs",
                     "image_alt": "--welcome.team.members.benedek_csaba.image_alt",
                     "icons": [
@@ -89,8 +89,8 @@ export default {
             {
                 "template_type_name": "dynamic_web_team_member",
                 "params": {
-                    "name": "Kovacs Szilard",
-                    "title": "--welcome.team.members.kovacs_szilard.name",
+                    "title": "--welcome.team.members.kovacs_szilard.title",
+                    "content": "--welcome.team.members.kovacs_szilard.content",
                     "image_url": "team/kovacssz",
                     "image_alt": "--welcome.team.members.kovacs_szilard.image_alt",
                     "icons": [
