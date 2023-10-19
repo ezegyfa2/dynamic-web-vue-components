@@ -5,14 +5,56 @@
         padding: 9rem 0;
     }
 }
+
 @media (max-width: 768px) {
     .page-section {
         padding: 6rem 0;
     }
 }
+
+@media (min-width: 1025px) {
+    .page-section {
+        background-image: url("./map-image.webp");
+    }
+}
+
+@media (max-width: 1024px) {
+    .page-section {
+        height: 875px;
+        background-image: url("map-image_1024.webp");
+    }
+}
+
+@media (max-width: 768px) {
+    .page-section {
+        height: 779px;
+        background-image: url("map-image_768.webp");
+    }
+}
+
+@media (max-width: 425px) {
+    .page-section {
+        height: 939px;
+        background-image: url("map-image_425.webp");
+    }
+}
+
+@media (max-width: 375px) {
+    .page-section {
+        height: 939px;
+        background-image: url("map-image_375.webp");
+    }
+}
+
+@media (max-width: 320px) {
+    .page-section {
+        height: 963px;
+        background-image: url("map-image_320.webp");
+    }
+}
+
 .page-section {
     background-color: #111519;
-    background-image: url("./map-image.webp");
     background-repeat: no-repeat;
     background-position: center;
 }

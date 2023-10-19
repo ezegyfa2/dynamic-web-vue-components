@@ -8,35 +8,35 @@
 
 @media (max-width: 992px) {
     header {
-        // height: 52rem;
+        height: 52rem;
         background-image: url("bg_1024.webp");
     }
 }
 
 @media (max-width: 768px) {
     header {
-        height: 420px;
+        height: 680px;
         background-image: url("bg_768.webp");
     }
 }
 
 @media (max-width: 425px) {
     header {
-        height: 346px;
+        height: 600px;
         background-image: url("bg_425.webp");
     }
 }
 
 @media (max-width: 375px) {
     header {
-        height: 402px;
+        height: 600px;
         background-image: url("bg_375.webp");
     }
 }
 
 @media (max-width: 320px) {
     header {
-        height: 402px;
+        height: 600px;
         background-image: url("bg_320.webp");
     }
 }
