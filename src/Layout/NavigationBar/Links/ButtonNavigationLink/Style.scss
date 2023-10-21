@@ -37,3 +37,11 @@
         border-color: $baseColor2 !important;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar-shrink {
+        .btn {
+            padding: 0.5rem 1rem;
+        }
+    }
+}

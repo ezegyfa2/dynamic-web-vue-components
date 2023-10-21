@@ -1,43 +1,49 @@
 @import "helper-vue-components/Headers/Header/Style";
 
-@media (min-width: 993px) {
+@media (min-width: 1441px) {
     header {
-        background-image: url("background.webp");
+        background-image: url("2550.webp");
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1440px) {
+    header {
+        background-image: url("1440.webp");
+    }
+}
+
+@media (max-width: 1024px) {
     header {
         height: 52rem;
-        background-image: url("bg_1024.webp");
+        background-image: url("1024.webp");
     }
 }
 
 @media (max-width: 768px) {
     header {
         height: 680px;
-        background-image: url("bg_768.webp");
+        background-image: url("768.webp");
     }
 }
 
 @media (max-width: 425px) {
     header {
         height: 600px;
-        background-image: url("bg_425.webp");
+        background-image: url("425.webp");
     }
 }
 
 @media (max-width: 375px) {
     header {
         height: 600px;
-        background-image: url("bg_375.webp");
+        background-image: url("375.webp");
     }
 }
 
 @media (max-width: 320px) {
     header {
         height: 600px;
-        background-image: url("bg_320.webp");
+        background-image: url("320.webp");
     }
 }
 

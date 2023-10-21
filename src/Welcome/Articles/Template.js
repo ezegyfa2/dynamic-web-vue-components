@@ -1,5 +1,5 @@
 export default {
-    "type": "fluid-description-section-container",
+    "type": "description-section-container",
     "data": {
         "description_sections": [
             {
