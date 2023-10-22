@@ -10,7 +10,6 @@
 .btn, .btn:disabled {
     color: $secondaryColor;
     font-family: $secondaryFontFamily;
-    font-size: 1rem;
     font-weight: 700;
     background-color: $primaryColor !important;
     border-color: $primaryColor !important;
@@ -38,10 +37,16 @@
     }
 }
 
+@media (min-width: 769px) {
+    .btn, .btn:disabled {
+        padding: 0.5rem 1rem !important;
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 768px) {
-    .navbar-shrink {
-        .btn {
-            padding: 0.5rem 1rem;
-        }
+    .btn {
+        padding: 0.5rem 1rem !important;
+        font-size: 0.9rem;
     }
 }

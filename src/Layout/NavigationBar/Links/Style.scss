@@ -12,6 +12,7 @@
     color: $secondaryColor;
     letter-spacing: 0.0625em;
     text-decoration: none;
+    text-align: center;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
@@ -25,6 +26,16 @@
     }
     .nav-link.active, .nav-link:hover, .badge:active, .badge:hover {
         color: $primaryColor;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-item {
+        margin-right: 0.5rem;
+
+        .nav-link {
+            font-size: 0.8rem;
+        }
     }
 }
 

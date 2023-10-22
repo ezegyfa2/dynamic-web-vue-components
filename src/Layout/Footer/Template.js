@@ -28,7 +28,7 @@ export default {
             {
                 "type": "dynamic-web-dark-link",
                 "data": {
-                    "url": "/privacy_policy",
+                    "url": "--routes.privacy-policy",
                     "content": "--layout.footer.privacy_policy",
                     "added_classes": {
                         "root": "me-3"
