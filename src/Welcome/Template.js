@@ -41,7 +41,7 @@ export default {
                                 "--welcome.offers.presentation.parts.admin_panel",
                                 "--welcome.offers.presentation.parts.fast_loading",
                                 "--welcome.offers.presentation.parts.ssl",
-                                "--welcome.offers.presentation.parts.backup",
+                                "--welcome.offers.presentation.parts.backup"
                             ]
                         },
                         {
@@ -53,7 +53,7 @@ export default {
                                 "--welcome.offers.webshop.parts.automatic_invoicing",
                                 "--welcome.offers.webshop.parts.admin_page",
                                 "--welcome.offers.webshop.parts.customer_reviews",
-                                "--welcome.offers.webshop.parts.weekly_reviews",
+                                "--welcome.offers.webshop.parts.weekly_reviews"
                             ]
                         },
                         {
