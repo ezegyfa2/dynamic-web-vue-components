@@ -56,13 +56,14 @@
             submitForm() {
                 if (!this.submitted) {
                     this.submitted = true
-                    gtag('event', 'conversion', {
+                    this.$refs.form.submit()
+                    /*gtag('event', 'conversion', {
                         'send_to': 'AW-11090865003/PTfvCNPmr-8YEOvWxKgp',
                         'event_callback': (a,b,c) => {
                             this.$refs.form.submit()
                             console.log(a,b,c)
                         }
-                    })
+                    })*/
                 }
             }
         }
