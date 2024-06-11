@@ -2,7 +2,7 @@ export default {
     "type": "dynamic-web-contact-form",
     "data": {
         "id": "contact_us",
-        "url": "/contact-and-faq",
+        "url": "--routes.contact",
         "title_section": {
             "type": "dynamic-web-white-medium-text-content",
             "data": {

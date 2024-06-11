@@ -5,7 +5,11 @@ section.page-section(v-bind:id='id')
         )
     .container.margin-top-md
         .row
-            a.col-sm.col-md-6.col-lg-3(v-for='image in images' v-bind:href='image.url')
+            component.col-sm.col-md-6.col-lg-3(
+                v-for='image in images' 
+                v-bind:is='image.url ? "a" : "div"'
+                v-bind:href='image.url'
+            )
                 vue-image.work-image(
                     v-bind:widths='imageWidths'
                     v-bind:src='image.image_url'

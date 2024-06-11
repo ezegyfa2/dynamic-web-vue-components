@@ -1,9 +1,13 @@
-section.page-section(v-bind:id='id')
+section.page-section(
+    v-bind:id='id'
+    ref='section'
+)
     .container
         dynamic-component(
             v-bind:component_infos='title_section'
         )
         form(
+            ref='form'
             v-bind:action='url'
             v-bind:method='method'
             v-on:submit='submitForm'
@@ -22,6 +26,7 @@ section.page-section(v-bind:id='id')
                     )
             .text-center
                 button.btn.btn-primary.btn-xl(
-                    type='submit'
+                    type='button' 
+                    v-on:click='submitForm'
                     v-bind:disabled='submitted'
                 ) {{ button_title }}
